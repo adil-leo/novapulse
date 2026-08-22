@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NovaPulse | Real-Time AI & Tech Aggregator</title>
-    <!-- Lightning Favicon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -15,35 +14,77 @@
     </header>
 
     <div class="container">
-        <main class="news-grid" id="news-container">
-            <p style="color:#94a3b8;">Loading latest tech updates...</p>
-        </main>
+        <div>
+            <main class="news-grid" id="news-container">
+                <p style="color:#94a3b8;">Loading latest tech updates...</p>
+            </main>
+            <!-- Pagination Controls -->
+            <div class="pagination" id="pagination-container"></div>
+        </div>
 
         <aside class="sidebar">
             <div class="ad-box">
-                <h3> Featured AI Tool Deal</h3>
+                <h3>🚀 Featured AI Tool Deal</h3>
                 <p>Automate your workflow with lifetime SaaS software deals on AppSumo.</p>
-                <!-- Active AppSumo URL (Jab tumhara apna affiliate link mil jaye, yahan replace kar dena) -->
                 <a href="https://appsumo.com" target="_blank" rel="noopener" class="ad-btn">Explore Deals</a>
             </div>
         </aside>
     </div>
 
     <script>
+        let allArticles = [];
+        const itemsPerPage = 5;
+        let currentPage = 1;
+
+        function renderPage(page) {
+            currentPage = page;
+            const container = document.getElementById('news-container');
+            container.innerHTML = '';
+            
+            const start = (page - 1) * itemsPerPage;
+            const end = start + itemsPerPage;
+            const pageArticles = allArticles.slice(start, end);
+
+            pageArticles.forEach(item => {
+                const card = document.createElement('article');
+                card.className = 'news-card';
+                card.innerHTML = `
+                    <img src="${item.image}" alt="News Image" class="news-img" onerror="this.src='https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80'">
+                    <div class="news-content">
+                        <h2><a href="${item.link}" target="_blank" rel="noopener">${item.title}</a></h2>
+                        <span class="news-date">Source Update • ${item.date}</span>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+
+            renderPagination();
+        }
+
+        function renderPagination() {
+            const paginationContainer = document.getElementById('pagination-container');
+            paginationContainer.innerHTML = '';
+            const totalPages = Math.ceil(allArticles.length / itemsPerPage);
+
+            if (totalPages <= 1) return;
+
+            for (let i = 1; i <= totalPages; i++) {
+                const btn = document.createElement('button');
+                btn.className = `page-btn ${i === currentPage ? 'active' : ''}`;
+                btn.innerText = i;
+                btn.onclick = () => {
+                    renderPage(i);
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                };
+                paginationContainer.appendChild(btn);
+            }
+        }
+
         fetch('news.json')
             .then(res => res.json())
             .then(data => {
-                const container = document.getElementById('news-container');
-                container.innerHTML = '';
-                data.forEach(item => {
-                    const card = document.createElement('article');
-                    card.className = 'news-card';
-                    card.innerHTML = `
-                        <h2><a href="${item.link}" target="_blank" rel="noopener">${item.title}</a></h2>
-                        <span class="news-date">Source Update • ${item.date}</span>
-                    `;
-                    container.appendChild(card);
-                });
+                allArticles = data;
+                renderPage(1);
             })
             .catch(err => {
                 document.getElementById('news-container').innerHTML = '<p>Error loading news feed.</p>';

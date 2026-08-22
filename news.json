@@ -2,51 +2,73 @@
     {
         "title": "Rust Glancer: Rust LSP using 100x less RAM",
         "link": "https://rust-glancer.github.io/blog/hello-world/",
-        "date": "Fri, 21 Aug 2026"
+        "date": "Fri, 21 Aug 2026",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
     },
     {
         "title": "Felony Bench",
         "link": "https://www.felonybench.com/",
-        "date": "Fri, 21 Aug 2026"
+        "date": "Fri, 21 Aug 2026",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
     },
     {
         "title": "Kobo can run apps now",
         "link": "https://bandarlabs.github.io/Cobalt/",
-        "date": "Fri, 21 Aug 2026"
+        "date": "Fri, 21 Aug 2026",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
     },
     {
         "title": "There's no reason for software to be slow anymore",
         "link": "https://danluu.com/perf-opt/",
-        "date": "Sat, 22 Aug 2026"
+        "date": "Sat, 22 Aug 2026",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
     },
     {
         "title": "Felony charges for citizen deleting phone data at US Border",
         "link": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html",
-        "date": "Fri, 21 Aug 2026"
+        "date": "Fri, 21 Aug 2026",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
+    },
+    {
+        "title": "I accidentally logged hundreds of thousands of phone calls to military bases",
+        "link": "https://lina.sh/blog/hijacking-e164-arpa",
+        "date": "Fri, 21 Aug 2026",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
     },
     {
         "title": "Michael Polansky is training an AI model on skin that’s still alive",
         "link": "https://techcrunch.com/2026/08/21/michael-polansky-is-training-an-ai-model-on-skin-thats-still-alive/",
-        "date": "Sat, 22 Aug 2026"
+        "date": "Sat, 22 Aug 2026",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
     },
     {
         "title": "Japanese space tech startup Letara expands beyond satellite thrusters with $16M",
         "link": "https://techcrunch.com/2026/08/21/japanese-space-tech-startup-letara-expands-beyond-satellite-thrusters-with-16m/",
-        "date": "Sat, 22 Aug 2026"
+        "date": "Sat, 22 Aug 2026",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
     },
     {
         "title": "Anthropic’s Opus 4.6 is a smut-machine",
         "link": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
-        "date": "Fri, 21 Aug 2026"
+        "date": "Fri, 21 Aug 2026",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
     },
     {
         "title": "Nvidia partners with data center developer Cloverleaf",
         "link": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
-        "date": "Fri, 21 Aug 2026"
+        "date": "Fri, 21 Aug 2026",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
     },
     {
         "title": "How AI accounting startup Rillet raised $100M and became a unicorn in 48 hours",
         "link": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/",
-        "date": "Fri, 21 Aug 2026"
+        "date": "Fri, 21 Aug 2026",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
+    },
+    {
+        "title": "Apple is reportedly cutting hundreds of jobs from Siri, Vision Pro teams",
+        "link": "https://techcrunch.com/2026/08/21/apple-is-reportedly-cutting-hundreds-of-jobs-from-siri-vision-pro-teams/",
+        "date": "Fri, 21 Aug 2026",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
     }
 ]
