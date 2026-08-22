@@ -3,166 +3,199 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NovaPulse | Real-Time AI & Tech Aggregator</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
-    <link rel="stylesheet" href="style.css">
+    <title>Store / Product Search</title>
+    <style>
+        /* Base Reset */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f8fafc;
+            color: #1e293b;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        /* Hero / Header Section */
+        .search-section {
+            width: 100%;
+            max-width: 900px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .search-section h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+            color: #0f172a;
+        }
+
+        .search-section p {
+            color: #64748b;
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+
+        /* Wide Search Bar Box */
+        .search-box {
+            width: 100%;
+            max-width: 780px; /* Bada width taake lambi line aaram se aye */
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            background: #ffffff;
+            border: 2px solid #e2e8f0;
+            border-radius: 50px; /* Rounded pill style */
+            padding: 8px 12px 8px 24px;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .search-box:focus-within {
+            border-color: #2563eb;
+            box-shadow: 0 12px 30px -5px rgba(37, 99, 235, 0.15);
+        }
+
+        /* Search Input */
+        .search-input {
+            flex: 1;
+            border: none;
+            outline: none;
+            font-size: 1.15rem; /* Wide & easy-to-read text */
+            color: #0f172a;
+            background: transparent;
+            padding: 10px 5px;
+        }
+
+        .search-input::placeholder {
+            color: #94a3b8;
+        }
+
+        /* Search Button */
+        .search-btn {
+            background-color: #2563eb;
+            color: #ffffff;
+            border: none;
+            padding: 14px 28px;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 40px;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+            white-space: nowrap;
+        }
+
+        .search-btn:hover {
+            background-color: #1d4ed8;
+        }
+
+        /* Content / Results Demo Grid */
+        .results-container {
+            width: 100%;
+            max-width: 1000px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+        }
+
+        .card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+            color: #1e293b;
+        }
+
+        .card p {
+            font-size: 0.95rem;
+            color: #64748b;
+            line-height: 1.5;
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 600px) {
+            .search-box {
+                flex-direction: column;
+                border-radius: 16px;
+                padding: 12px;
+                gap: 10px;
+            }
+            .search-input {
+                width: 100%;
+                font-size: 1rem;
+                text-align: center;
+            }
+            .search-btn {
+                width: 100%;
+                border-radius: 10px;
+            }
+        }
+    </style>
 </head>
 <body>
 
-    <nav>
-        <a href="#" class="logo">⚡ NOVAPULSE</a>
-        <ul class="nav-links">
-            <li><a onclick="setCategory('all', event)" class="active">All News</a></li>
-            <li><a onclick="setCategory('ai', event)">AI & ML</a></li>
-            <li><a onclick="setCategory('software', event)">Software</a></li>
-            <li><a onclick="setCategory('security', event)">Cyber Security</a></li>
-            <li><a onclick="setCategory('gadgets', event)">Tech & Gadgets</a></li>
-        </ul>
-    </nav>
-
-    <header class="hero">
-        <h1>The Pulse of Artificial Intelligence & Tech</h1>
-        <p>Live feed aggregating global updates from Google News, NYTimes, and leading publishers.</p>
+    <section class="search-section">
+        <h1>What are you looking for today?</h1>
+        <p>Type long keywords, full questions, or product names below</p>
         
-        <!-- Live Search Bar -->
-        <div class="search-container">
-            <input type="text" id="search-input" class="search-input" placeholder="🔍 Search news by keyword (e.g. Nvidia, OpenAI, Apple)..." oninput="handleFilter()">
+        <!-- Big Search Bar -->
+        <div class="search-box">
+            <input 
+                type="text" 
+                class="search-input" 
+                id="searchInput" 
+                placeholder="Search deals, software, or long-tail affiliate keywords..." 
+                onkeyup="filterItems()"
+            >
+            <button class="search-btn" onclick="filterItems()">Search</button>
         </div>
-    </header>
+    </section>
 
-    <div class="container">
-        <div>
-            <main class="news-grid" id="news-container">
-                <p style="color:#9ca3af;">Loading real-time updates...</p>
-            </main>
-            <div class="pagination" id="pagination-container"></div>
+    <!-- Sample Items Grid -->
+    <main class="results-container" id="resultsContainer">
+        <div class="card" data-title="SEO Optimization Toolkit">
+            <h3>SEO Optimization Toolkit</h3>
+            <p>Complete suite for keyword research, schema generation, and site auditing.</p>
         </div>
-
-        <aside class="sidebar">
-            <div class="ad-box">
-                <h3>🚀 Featured AI Tool Deal</h3>
-                <p>Automate your workflow with lifetime SaaS software deals on AppSumo.</p>
-                <a href="https://appsumo.com" target="_blank" rel="noopener" class="ad-btn">Explore Deals</a>
-            </div>
-
-            <div class="about-box" id="about">
-                <h4>About NovaPulse</h4>
-                <p>NovaPulse is an automated news engine monitoring global RSS feeds every 6 hours to keep developers and tech enthusiasts ahead of the curve.</p>
-            </div>
-        </aside>
-    </div>
-
-    <footer>
-        <p>© 2026 NovaPulse Network. All rights reserved.</p>
-        <p style="font-size: 0.75rem; color: #4b5563; margin-top: 5px;">
-            Disclaimer: NovaPulse is an automated news aggregator. News content belongs to respective publishers.
-        </p>
-    </footer>
+        <div class="card" data-title="Automated Content Publisher">
+            <h3>Automated Content Publisher</h3>
+            <p>Schedule and auto-post affiliate store items directly from GitHub Actions.</p>
+        </div>
+        <div class="card" data-title="Affiliate Link Manager">
+            <h3>Affiliate Link Manager</h3>
+            <p>Filter dead links automatically and track conversions in real-time.</p>
+        </div>
+    </main>
 
     <script>
-        let allArticles = [];
-        let currentCategory = 'all';
-        let filteredArticles = [];
-        const itemsPerPage = 10;
-        let currentPage = 1;
+        function filterItems() {
+            let input = document.getElementById('searchInput').value.toLowerCase();
+            let cards = document.getElementsByClassName('card');
 
-        function setCategory(category, e) {
-            currentCategory = category;
-            document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
-            if(e) e.target.classList.add('active');
-            handleFilter();
-        }
-
-        function handleFilter() {
-            const searchQuery = document.getElementById('search-input').value.toLowerCase().trim();
-
-            filteredArticles = allArticles.filter(item => {
-                const text = (item.title + " " + item.summary + " " + item.source).toLowerCase();
+            for (let i = 0; i < cards.length; i++) {
+                let title = cards[i].getAttribute('data-title').toLowerCase();
+                let text = cards[i].innerText.toLowerCase();
                 
-                // Category Condition
-                let matchesCategory = false;
-                if (currentCategory === 'all') matchesCategory = true;
-                else if (currentCategory === 'ai') matchesCategory = /ai|intelligence|gpt|llm|openai|claude|gemini|neural|model|robot/i.test(text);
-                else if (currentCategory === 'software') matchesCategory = /software|app|code|dev|python|github|linux|windows|cloud|tool/i.test(text);
-                else if (currentCategory === 'security') matchesCategory = /security|cyber|hack|data|privacy|leak|breach|virus|crypto/i.test(text);
-                else if (currentCategory === 'gadgets') matchesCategory = /apple|google|phone|chip|nvidia|intel|hardware|device|meta|samsung/i.test(text);
-
-                // Search Query Condition
-                let matchesSearch = text.includes(searchQuery);
-
-                return matchesCategory && matchesSearch;
-            });
-
-            renderPage(1);
-        }
-
-        function renderPage(page) {
-            currentPage = page;
-            const container = document.getElementById('news-container');
-            container.innerHTML = '';
-            
-            if (filteredArticles.length === 0) {
-                container.innerHTML = '<p style="color:#9ca3af; padding: 20px 0; text-align:center;">Koi news nahi mili. Koi doosra keyword ya category try karein!</p>';
-                document.getElementById('pagination-container').innerHTML = '';
-                return;
-            }
-
-            const start = (page - 1) * itemsPerPage;
-            const end = start + itemsPerPage;
-            const pageArticles = filteredArticles.slice(start, end);
-
-            pageArticles.forEach(item => {
-                const card = document.createElement('article');
-                card.className = 'news-card';
-                card.innerHTML = `
-                    <img src="${item.image}" alt="News Image" class="news-img" onerror="this.src='https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80'">
-                    <div class="news-content">
-                        <div>
-                            <span class="source-tag">${item.source}</span>
-                            <h2><a href="${item.link}" target="_blank" rel="noopener">${item.title}</a></h2>
-                            <p class="news-desc">${item.summary}</p>
-                        </div>
-                        <div class="news-footer">
-                            <span>${item.date}</span>
-                            <a href="${item.link}" target="_blank" rel="noopener" class="read-more">Read More →</a>
-                        </div>
-                    </div>
-                `;
-                container.appendChild(card);
-            });
-
-            renderPagination();
-        }
-
-        function renderPagination() {
-            const paginationContainer = document.getElementById('pagination-container');
-            paginationContainer.innerHTML = '';
-            const totalPages = Math.ceil(filteredArticles.length / itemsPerPage);
-
-            if (totalPages <= 1) return;
-
-            for (let i = 1; i <= totalPages; i++) {
-                const btn = document.createElement('button');
-                btn.className = `page-btn ${i === currentPage ? 'active' : ''}`;
-                btn.innerText = i;
-                btn.onclick = () => {
-                    renderPage(i);
-                    window.scrollTo({ top: 200, behavior: 'smooth' });
-                };
-                paginationContainer.appendChild(btn);
+                if (title.includes(input) || text.includes(input)) {
+                    cards[i].style.display = "";
+                } else {
+                    cards[i].style.display = "none";
+                }
             }
         }
-
-        fetch('news.json')
-            .then(res => res.json())
-            .then(data => {
-                allArticles = data;
-                filteredArticles = [...data];
-                renderPage(1);
-            })
-            .catch(err => {
-                document.getElementById('news-container').innerHTML = '<p>Error loading news feed.</p>';
-            });
     </script>
 </body>
 </html>
