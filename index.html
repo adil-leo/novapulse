@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaPulse | Real-Time AI & Tech Aggregator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>⚡ NOVAPULSE</h1>
+        <p>Live AI & SaaS Tech News Network</p>
+    </header>
+
+    <div class="container">
+        <main class="news-grid" id="news-container">
+            <p style="color:#94a3b8;">Loading latest tech updates...</p>
+        </main>
+
+        <aside class="sidebar">
+            <div class="ad-box">
+                <h3>🚀 Featured AI Tool Deal</h3>
+                <p>Automate your workflow with lifetime SaaS software deals on AppSumo.</p>
+                <a href="YOUR_AFFILIATE_LINK" target="_blank" class="ad-btn">Explore Deals</a>
+            </div>
+        </aside>
+    </div>
+
+    <script>
+        fetch('news.json')
+            .then(res => res.json())
+            .then(data => {
+                const container = document.getElementById('news-container');
+                container.innerHTML = '';
+                data.forEach(item => {
+                    const card = document.createElement('article');
+                    card.className = 'news-card';
+                    card.innerHTML = `
+                        <h2><a href="${item.link}" target="_blank" rel="noopener">${item.title}</a></h2>
+                        <span class="news-date">Source Update • ${item.date}</span>
+                    `;
+                    container.appendChild(card);
+                });
+            })
+            .catch(err => {
+                document.getElementById('news-container').innerHTML = '<p>Error loading news feed.</p>';
+            });
+    </script>
+</body>
+</html>
