@@ -1,0 +1,29 @@
+name: Auto Update News Feed
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Har 6 ghante baad auto-run hoga
+  workflow_dispatch: # Manual run button
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Fetch Latest News
+        run: python fetch_news.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add news.json
+          git commit -m "Auto-update news feed" || exit 0
+          git push
