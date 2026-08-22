@@ -8,17 +8,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>⚡ NOVAPULSE</h1>
-        <p>Live AI & SaaS Tech News Network</p>
+
+    <nav>
+        <a href="#" class="logo">⚡ NOVAPULSE</a>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">AI News</a></li>
+            <li><a href="#">Software</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1>The Pulse of Artificial Intelligence & Tech</h1>
+        <p>Live, continuous feed aggregating global breakthroughs from Google News, NYTimes, and top tech publishers.</p>
     </header>
 
     <div class="container">
         <div>
             <main class="news-grid" id="news-container">
-                <p style="color:#94a3b8;">Loading latest tech updates...</p>
+                <p style="color:#9ca3af;">Loading real-time updates...</p>
             </main>
-            <!-- Pagination Controls -->
             <div class="pagination" id="pagination-container"></div>
         </div>
 
@@ -28,12 +38,21 @@
                 <p>Automate your workflow with lifetime SaaS software deals on AppSumo.</p>
                 <a href="https://appsumo.com" target="_blank" rel="noopener" class="ad-btn">Explore Deals</a>
             </div>
+
+            <div class="about-box" id="about">
+                <h4>About NovaPulse</h4>
+                <p>NovaPulse is an automated news engine monitoring global RSS feeds every 6 hours to keep developers, creators, and entrepreneurs ahead of the tech curve.</p>
+            </div>
         </aside>
     </div>
 
+    <footer>
+        <p>© 2026 NovaPulse Network. Built with automated GitHub workflows.</p>
+    </footer>
+
     <script>
         let allArticles = [];
-        const itemsPerPage = 5;
+        const itemsPerPage = 10; // Updated to 10 articles per page
         let currentPage = 1;
 
         function renderPage(page) {
@@ -51,8 +70,15 @@
                 card.innerHTML = `
                     <img src="${item.image}" alt="News Image" class="news-img" onerror="this.src='https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80'">
                     <div class="news-content">
-                        <h2><a href="${item.link}" target="_blank" rel="noopener">${item.title}</a></h2>
-                        <span class="news-date">Source Update • ${item.date}</span>
+                        <div>
+                            <span class="source-tag">${item.source}</span>
+                            <h2><a href="${item.link}" target="_blank" rel="noopener">${item.title}</a></h2>
+                            <p class="news-desc">${item.summary}</p>
+                        </div>
+                        <div class="news-footer">
+                            <span>${item.date}</span>
+                            <a href="${item.link}" target="_blank" rel="noopener" class="read-more">Read More →</a>
+                        </div>
                     </div>
                 `;
                 container.appendChild(card);
@@ -74,7 +100,7 @@
                 btn.innerText = i;
                 btn.onclick = () => {
                     renderPage(i);
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                    window.scrollTo({ top: 200, behavior: 'smooth' });
                 };
                 paginationContainer.appendChild(btn);
             }

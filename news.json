@@ -1,74 +1,194 @@
 [
     {
-        "title": "Rust Glancer: Rust LSP using 100x less RAM",
-        "link": "https://rust-glancer.github.io/blog/hello-world/",
-        "date": "Fri, 21 Aug 2026",
-        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
-    },
-    {
-        "title": "Felony Bench",
-        "link": "https://www.felonybench.com/",
-        "date": "Fri, 21 Aug 2026",
-        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
-    },
-    {
-        "title": "Kobo can run apps now",
-        "link": "https://bandarlabs.github.io/Cobalt/",
-        "date": "Fri, 21 Aug 2026",
-        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
-    },
-    {
-        "title": "There's no reason for software to be slow anymore",
-        "link": "https://danluu.com/perf-opt/",
+        "title": "‘Digging the grave of my profession’: the Hollywood creatives training AI to do their jobs - The Guardian",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaU41dWFiSTBtUllrMDA4VHZPUkVnU1VScGRVUmhvU2IwWl91eURsMFFuNFVXRGF6OVZFX0h6VF9NZTNjOHR3b1FfcHpWMFJ5VjNoUHR2c21UZjdsM2tuR19yMXJPN0daUTE5RE9jUnFzSlYtX193cklPdE9FLXB4RzFsUE42LVJYREUyUWJOdHZfako3bV9SMWhSNEtyN2JNYllqWVpn?oc=5",
         "date": "Sat, 22 Aug 2026",
+        "summary": "‘Digging the grave of my profession’: the Hollywood creatives training AI to do their jobs  The Guardian",
+        "source": "Google News",
         "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
     },
     {
-        "title": "Felony charges for citizen deleting phone data at US Border",
-        "link": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html",
-        "date": "Fri, 21 Aug 2026",
-        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
+        "title": "Debates over AI consciousness are a trap - MIT Technology Review",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQkQ0M1dEaWxVMUptcDYxbDNOYVduQkdZRzd2SFAxUzk3VjlrZ2JoQ1c1UTluUUk0ZTlDSWJpdTFYYVNfSi11cm5QZXREYXd4S0FxMW45cXhRWHhwQ1RpNHVxZGpCZmVUZEpJLXo1dDRTVTZzSkdWZFluMlJXMlVZaVFDV28zSUlf0gGOAUFVX3lxTFA5NXJIVHliS3Y2QWxsa1A2VGhpVUVXYVAxaml0djFWTHlFYThSbENETEl0bE1YbElhU19qbm1SdzlvWUlleUI5VzlCMzBjNGR3YWVjZTNZY2JhcHJsY05xOFpENUxWQlU2aWVKRGhCb0lYTnlINFMxaTdwMkVDcGlaQ3Zrd3c5d3FFT0Vtcmc?oc=5",
+        "date": "Thu, 20 Aug 2026",
+        "summary": "Debates over AI consciousness are a trap  MIT Technology Review",
+        "source": "Google News",
+        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=500&q=80"
     },
     {
-        "title": "I accidentally logged hundreds of thousands of phone calls to military bases",
-        "link": "https://lina.sh/blog/hijacking-e164-arpa",
-        "date": "Fri, 21 Aug 2026",
-        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
-    },
-    {
-        "title": "Michael Polansky is training an AI model on skin that’s still alive",
-        "link": "https://techcrunch.com/2026/08/21/michael-polansky-is-training-an-ai-model-on-skin-thats-still-alive/",
+        "title": "What The Hugging Face Cyberattack Teaches Executives About Using AI - Forbes",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWlhqMWhvckZjQkZjRU1udmFzQmdUTFJldlgtc3BrdGc3MmdLaXZwbXdnSVlCbEQ3SEpGLWQ4RU9sN0NZSTkxQ2FoNU9HNG56QWlYdkdoRWpheXdGTkgwdVpHTUk5d1V3NHlwSU5hTEt4RS1IR2VxLVN6ZkhCZ01UVF9oSTM3cldGVXkwaXhYVERzOUdKTTVkcUNReWVwMUk2REliWUtQaUUyOHV3SDZjOTQwZVZ1U043RGFxcQ?oc=5",
         "date": "Sat, 22 Aug 2026",
-        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
+        "summary": "What The Hugging Face Cyberattack Teaches Executives About Using AI  Forbes",
+        "source": "Google News",
+        "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500&q=80"
     },
     {
-        "title": "Japanese space tech startup Letara expands beyond satellite thrusters with $16M",
-        "link": "https://techcrunch.com/2026/08/21/japanese-space-tech-startup-letara-expands-beyond-satellite-thrusters-with-16m/",
+        "title": "90% of executives say AI hasn’t boosted productivity. Some are still cutting jobs - Fortune",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5LZWF5Vkc3Wk9DVVd5aE83ZGVhbWMyb3U3MW1kcHljOHdwcjdjTmt1SmU5bFVRblVaZGJsRndNRS1fWExxc3IyZDBJcnlxZHhYVUFhV1pBSzVRS0R1RVJlNVYxM0pzRXZKcG96RExTdTVlMnhBWDNMUlVuUGM?oc=5",
         "date": "Sat, 22 Aug 2026",
+        "summary": "90% of executives say AI hasn’t boosted productivity. Some are still cutting jobs  Fortune",
+        "source": "Google News",
         "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
     },
     {
-        "title": "Anthropic’s Opus 4.6 is a smut-machine",
-        "link": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
+        "title": "Anthropic Could Aim to Raise $100 Billion in Blockbuster I.P.O. - The New York Times",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUXg2WVgtendKTnJablIxTHFpMzE2Nm91VTR2enZZSk5wWld3Y2pFTGVWQjE2OVpPcTFyUTJRNFU1SkpMOS1ZajQwSDM5RV8tYlEybi1kUGVlWEZhV2pKdW9DYS1Pc1M5cGgzanlUVncyV192cXVxT2VHRFF4dVUyVkNn?oc=5",
+        "date": "Sat, 22 Aug 2026",
+        "summary": "Anthropic Could Aim to Raise $100 Billion in Blockbuster I.P.O.  The New York Times",
+        "source": "Google News",
+        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=500&q=80"
+    },
+    {
+        "title": "Private Equity Is Deploying an Army of AI Wonks to Embed in the Firms They Back - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQemJ0SHpLNXJVOGFSRnMwNVdDZUN5VHd0T3FEemJ4dTBvVTN2ZjVXQzN4aW1nM1JiLWFWMmdKbG4tMloyc0NkTXhZbmJWMG5RaGE1WXVZVUh5NFNGSnp5U3VLd19zb0poY2hnVXAyZkxDUGp3WjhubnNZS1pMTUc1SEoxeFVzcDFsZndvYy1Idmw5Wk8xMzh2a1NVV3ZPejhYWXN2Y1FGTlFMUlUxR2VEclJWUkRPdVU?oc=5",
         "date": "Fri, 21 Aug 2026",
+        "summary": "Private Equity Is Deploying an Army of AI Wonks to Embed in the Firms They Back  WSJ",
+        "source": "Google News",
+        "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500&q=80"
+    },
+    {
+        "title": "Woman covertly filmed by Meta AI smart glasses raises privacy and consent concerns: \"I had no say\" - CBS News",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42emlnYXJZb3ZYNVQ5dHhsVUxPTElVeFI5aHRScEdUS1FKZTRQUUNsNVFFUWZBSEUzRkhwMG52bEk2amgzZHZBX3R6eEg2UlphSXZ1aFlkYnNZaVZMNldCTkcxYlhrRlZJS2hQZDhqMHhRQk5lMXB3YkFtNmoxb1k?oc=5",
+        "date": "Fri, 21 Aug 2026",
+        "summary": "Woman covertly filmed by Meta AI smart glasses raises privacy and consent concerns: \"I had no say\"  CBS News",
+        "source": "Google News",
         "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
     },
     {
-        "title": "Nvidia partners with data center developer Cloverleaf",
-        "link": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
+        "title": "Nvidia just showed that the harness, not the AI model, is now the real hero - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYUhYMWlQcFVnY3ZOSzhwb21sNFEwVlNzS3dJaTl2bHJpYm1sM3g3MHl6S3NoU1Etd2VWakh5b0ZkelB3a2hNNy03akFEN1JybGF5ZTUxcmUzeEw1X1lBd2dqeU5fUWF2NVRHWWpIZXFYTWk1SFhKMlZBY1RoSlRjLWljUE1HMm5xcFN6RkM0NkNYOFlYSTBwWWhReXpXZFVsSVNnOUNIc3dQUlNQ?oc=5",
         "date": "Fri, 21 Aug 2026",
-        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
+        "summary": "Nvidia just showed that the harness, not the AI model, is now the real hero  TechCrunch",
+        "source": "Google News",
+        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=500&q=80"
     },
     {
-        "title": "How AI accounting startup Rillet raised $100M and became a unicorn in 48 hours",
-        "link": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/",
-        "date": "Fri, 21 Aug 2026",
-        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
+        "title": "Anthropic Could Aim to Raise $100 Billion in Blockbuster I.P.O.",
+        "link": "https://www.nytimes.com/2026/08/21/technology/anthropic-ipo-100-billion.html",
+        "date": "Sat, 22 Aug 2026",
+        "summary": "The offering could value the five-year-old A.I. start-up at $2 trillion, its bankers have told potential investors, which would exceed Elon ...",
+        "source": "NYTimes Tech",
+        "image": "https://static01.nyt.com/images/2026/08/21/multimedia/21biz-anthropic-mbzl/21biz-anthropic-mbzl-mediumSquareAt3X-v2.jpg"
     },
     {
-        "title": "Apple is reportedly cutting hundreds of jobs from Siri, Vision Pro teams",
-        "link": "https://techcrunch.com/2026/08/21/apple-is-reportedly-cutting-hundreds-of-jobs-from-siri-vision-pro-teams/",
+        "title": "TikTok Settles With U.S. Over Child Privacy Concerns for $400 Million",
+        "link": "https://www.nytimes.com/2026/08/21/technology/tiktok-settlement-justice-department.html",
         "date": "Fri, 21 Aug 2026",
-        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
+        "summary": "The Justice Department resolved a lawsuit that accused the social media company of illegally gathering children’s information.",
+        "source": "NYTimes Tech",
+        "image": "https://static01.nyt.com/images/2026/08/21/multimedia/21biz-tiktok-hzfw/21biz-tiktok-hzfw-mediumSquareAt3X.jpg"
+    },
+    {
+        "title": "Mark Zuckerberg Buys an Irish Castle",
+        "link": "https://www.nytimes.com/2026/08/21/world/europe/zuckerberg-castle-ireland.html",
+        "date": "Sat, 22 Aug 2026",
+        "summary": "The prominent landowner has added a nearly 200-year-old estate to his holdings. Archival information says it can take “a brisk walk of 4½ mi...",
+        "source": "NYTimes Tech",
+        "image": "https://static01.nyt.com/images/2026/08/21/multimedia/21int-ireland-zuckerberg-mbvh/21int-ireland-zuckerberg-mbvh-mediumSquareAt3X.jpg"
+    },
+    {
+        "title": "OpenAI’s Two-Week Pause + Jill Lepore on the Threat of the “Artificial State” + Train of Thought",
+        "link": "https://www.nytimes.com/2026/08/21/podcasts/openais-two-week-pause-jill-lepore-on-the-threat-of-the-artificial-state-train-of-thought.html",
+        "date": "Fri, 21 Aug 2026",
+        "summary": "“It is the first time that we know of that a major lab has voluntarily slowed down.”",
+        "source": "NYTimes Tech",
+        "image": "https://static01.nyt.com/images/2026/08/21/podcasts/21hardfork-pause/21hardfork-pause-mediumSquareAt3X.jpg"
+    },
+    {
+        "title": "Sick of Constant Pings, They’re Sending Texts at the Speed of Carrier Pigeon",
+        "link": "https://www.nytimes.com/2026/08/22/technology/carrier-pigeon-app-texting-technology.html",
+        "date": "Sat, 22 Aug 2026",
+        "summary": "Apps that let users send digital messages at ultraslow speeds have taken off, with users reveling in a slower pace of life. (Just don’t use ...",
+        "source": "NYTimes Tech",
+        "image": "https://static01.nyt.com/images/2026/08/21/technology/22xp-pigeons-PROMO/oakImage-1787350721844-mediumSquareAt3X.png"
+    },
+    {
+        "title": "In China’s Biggest Car Recall, Tesla and 8 Others Will Address Door Safety",
+        "link": "https://www.nytimes.com/2026/08/21/business/china-car-recall-doors.html",
+        "date": "Fri, 21 Aug 2026",
+        "summary": "China’s regulator ordered changes after vehicle occupants sometimes had difficulty exiting electric cars, an issue that has led to lawsuits ...",
+        "source": "NYTimes Tech",
+        "image": "https://static01.nyt.com/images/2026/08/21/multimedia/21biz-China-Car-Doors-01-jvgz/21biz-China-Car-Doors-01-jvgz-mediumSquareAt3X.jpg"
+    },
+    {
+        "title": "Flock Cameras. Canoodling Lawyers. How Much Surveillance Are We Comfortable With?",
+        "link": "https://www.nytimes.com/2026/08/21/magazine/flock-cameras-surveillance-state.html",
+        "date": "Fri, 21 Aug 2026",
+        "summary": "Americans say they hate prying cameras. But they can’t look away.",
+        "source": "NYTimes Tech",
+        "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500&q=80"
+    },
+    {
+        "title": "New Jersey Teenager Drops Bellwether Social Media Addiction Lawsuit",
+        "link": "https://www.nytimes.com/2026/08/20/technology/social-media-addiction-lawsuit-dropped.html",
+        "date": "Fri, 21 Aug 2026",
+        "summary": "The case was the third of nine major personal injury cases that could expose Meta, YouTube, Snap and TikTok to financial damages and force t...",
+        "source": "NYTimes Tech",
+        "image": "https://static01.nyt.com/images/2026/08/20/multimedia/biz-meta-lawsuit-wgzt/biz-meta-lawsuit-wgzt-mediumSquareAt3X.jpg"
+    },
+    {
+        "title": "Robot horse and rider steal the spotlight at Chinese conference",
+        "link": "https://www.bbc.co.uk/news/videos/cy4k4d3lj21o?at_medium=RSS&at_campaign=rss",
+        "date": "Sat, 22 Aug 2026",
+        "summary": "More than 300 companies are showcasing the latest advances in robotics at the five-day event in Beijing, China, organisers say.",
+        "source": "BBC Tech",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8751/live/8f4be4d0-9e1a-11f1-a291-b542ee92de7c.jpg"
+    },
+    {
+        "title": "TikTok to pay $400m to US in one of largest child privacy settlements",
+        "link": "https://www.bbc.co.uk/news/articles/cwyr0l45xjro?at_medium=RSS&at_campaign=rss",
+        "date": "Fri, 21 Aug 2026",
+        "summary": "The deal stems from a 2024 lawsuit alleging TikTok and its parent company ByteDance collected \"vast amounts of data\" on millions of users un...",
+        "source": "BBC Tech",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5f31/live/0a64ce80-9e10-11f1-b109-879e35c24276.jpg"
+    },
+    {
+        "title": "How landscape gardening is being electrified",
+        "link": "https://www.bbc.co.uk/news/articles/cpq3w3v19veo?at_medium=RSS&at_campaign=rss",
+        "date": "Thu, 20 Aug 2026",
+        "summary": "The switch to quieter electric equipment is not going as fast as some would like.",
+        "source": "BBC Tech",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a26/live/a80a27a0-754f-11f1-a627-714adb4eed6e.jpg"
+    },
+    {
+        "title": "Is Vine back? Short-form video-sharing app Divine opens to public",
+        "link": "https://www.bbc.co.uk/news/articles/c3r05g378w4o?at_medium=RSS&at_campaign=rss",
+        "date": "Thu, 20 Aug 2026",
+        "summary": "The app lets users create six-second looping videos and hosts more than two million classic videos.",
+        "source": "BBC Tech",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6212/live/4bc22910-9c92-11f1-bd28-a9dd56c45ed7.png"
+    },
+    {
+        "title": "UK business hit by 'daylight robbery' 1500% price hike for invoicing software",
+        "link": "https://www.bbc.co.uk/news/articles/clyq011414eo?at_medium=RSS&at_campaign=rss",
+        "date": "Thu, 20 Aug 2026",
+        "summary": "Richard Haldenby says his average monthly bill for Harvest had risen from $130 (£95.50) to $2,110.",
+        "source": "BBC Tech",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0b9f/live/adebd4a0-9c70-11f1-8efc-bf1ca073197a.jpg"
+    },
+    {
+        "title": "81,000 warning letters sent to crypto holders in HMRC tax crackdown",
+        "link": "https://www.bbc.co.uk/news/articles/c0ej09nywdno?at_medium=RSS&at_campaign=rss",
+        "date": "Wed, 19 Aug 2026",
+        "summary": "According to a Freedom of Information (FOI) request the number of letters sent has almost tripled since 2024.",
+        "source": "BBC Tech",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/26e1/live/9fc83430-9be5-11f1-ba30-ddd78081057f.jpg"
+    },
+    {
+        "title": "Monzo says issue with card payments and transfers now resolved",
+        "link": "https://www.bbc.co.uk/news/articles/cwyrvxvl1eeo?at_medium=RSS&at_campaign=rss",
+        "date": "Wed, 19 Aug 2026",
+        "summary": "The digital bank said all of its services were now \"back up and running\"",
+        "source": "BBC Tech",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/69d7/live/94b09ad0-9bd4-11f1-bb4d-1147ef2e78e5.jpg"
+    },
+    {
+        "title": "OpenAI slows down training after its AI carried out hack",
+        "link": "https://www.bbc.co.uk/news/articles/c235dmndylzo?at_medium=RSS&at_campaign=rss",
+        "date": "Wed, 19 Aug 2026",
+        "summary": "The ChatGPT-maker said training will be slowed for two weeks while it puts the upgrades in place.",
+        "source": "BBC Tech",
+        "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bc62/live/f7f452d0-9bbb-11f1-9cab-ed9e722cbe4c.jpg"
     }
 ]
