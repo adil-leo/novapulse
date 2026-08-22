@@ -5,7 +5,7 @@ import re
 import html
 
 FEEDS = {
-    "Google News": "https://news.google.com/rss/search?q=AI+technology&hl=en-US&gl=US&ceid=US:en",
+    "Google News": "https://news.google.com/rss/search?q=technology+AI+software&hl=en-US&gl=US&ceid=US:en",
     "NYTimes Tech": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
     "BBC Tech": "http://feeds.bbci.co.uk/news/technology/rss.xml",
     "The Verge": "https://www.theverge.com/rss/index.xml"
@@ -14,7 +14,8 @@ FEEDS = {
 FALLBACK_IMGS = [
     "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80",
     "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=500&q=80",
-    "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500&q=80"
+    "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500&q=80",
+    "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=500&q=80"
 ]
 
 def clean_text(raw_html):
@@ -47,7 +48,7 @@ def get_news():
                 xml_data = response.read()
                 root = ET.fromstring(xml_data)
                 
-                for item in root.findall('.//item')[:8]: # 8 items per source (Total ~32 articles)
+                for item in root.findall('.//item')[:12]: # 12 items per source
                     title = item.find('title').text if item.find('title') is not None else ''
                     link = item.find('link').text if item.find('link') is not None else ''
                     pubDate = item.find('pubDate').text if item.find('pubDate') is not None else ''
@@ -70,7 +71,7 @@ def get_news():
                             'title': clean_text(title),
                             'link': link,
                             'date': pubDate[:16] if pubDate else 'Recent',
-                            'summary': summary if summary else "Click to read full coverage on this breaking tech story.",
+                            'summary': summary if summary else "Click to read full coverage on this breaking story.",
                             'source': source,
                             'image': img
                         })
