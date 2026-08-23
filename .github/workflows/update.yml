@@ -2,28 +2,32 @@ name: Auto Update News Feed
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # Har 6 ghante baad auto-run hoga
+    - cron: '0 */6 * * *' # Har 6 ghante baad chalega
   workflow_dispatch: # Manual run button
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
+    - name: Checkout Repository
+      uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
 
-      - name: Fetch Latest News
-        run: python fetch_news.py
+    - name: Run Fetch News Script
+      run: python fetch_news.py
 
-      - name: Commit and Push Changes
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add news.json
-          git commit -m "Auto-update news feed" || exit 0
-          git push
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add news.json
+        git commit -m "Auto update news feed [skip ci]" || echo "No news updates found"
+        git push
