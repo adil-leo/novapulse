@@ -1,15 +1,15 @@
-name: NovaPulse Auto News Scraper
+name: Daily Web Scraper
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Runs every 6 hours
-  workflow_dispatch:      # Allows manual trigger from GitHub UI
+    - cron: '0 6 * * *'  # Har raat UTC time par chalega
+  workflow_dispatch:     # Manual run button ke liye
 
 jobs:
-  build:
+  scrape:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
+      - name: Checkout Code
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -20,46 +20,15 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install feedparser
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Run Scraper Script
         run: python scraper.py
 
-      - name: Commit and Push news.json
+      - name: Commit and Push Changes
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add news.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update news feed [skip ci]" && git push)name: NovaPulse Auto News Scraper
-
-on:
-  schedule:
-    - cron: '0 */6 * * *'  # Runs every 6 hours
-  workflow_dispatch:      # Allows manual trigger from GitHub UI
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-
-      - name: Install Dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install feedparser
-
-      - name: Run Scraper Script
-        run: python scraper.py
-
-      - name: Commit and Push news.json
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add news.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update news feed [skip ci]" && git push)
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git diff-index --quiet HEAD || git commit -m "Auto update via scraper workflow"
+          git push
