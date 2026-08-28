@@ -3,16 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NovaPulse | Real-Time AI & Tech Aggregator</title>
-    <meta name="description" content="NovaPulse delivers real-time AI breakthroughs, technology news, and software updates aggregated live from top global sources.">
+    <title>NovaPulse | Real-Time AI, Tech, Crypto & Business Updates</title>
+    <meta name="description" content="NovaPulse delivers real-time AI breakthroughs, tech trends, crypto market updates, and business insights live from global sources.">
     <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Social Media Sharing Preview -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="NovaPulse - Real-Time AI, Tech & Crypto News Feed">
+    <meta property="og:description" content="Live automated news feed aggregating AI breakthroughs, tech, crypto, and business insights.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="NovaPulse - AI, Tech & Business Feed">
+    <meta name="twitter:description" content="Latest real-time news feed covering AI, software, crypto, and business.">
+
+    <!-- Schema.org Google Rich Snippet -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsMediaOrganization",
+      "name": "NovaPulse",
+      "description": "Real-Time AI, Tech, Crypto & Business Aggregator"
+    }
+    </script>
+
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
     <link rel="stylesheet" href="style.css">
+    
     <style>
-        /* Wide Search Bar Styling */
+        /* Sleek Modern UI Customizations */
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --accent-color: #38bdf8;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --border-color: #334155;
+        }
+
+        /* Micro-Tool Section Styling */
+        .micro-tool-card {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            border: 1px solid #38bdf840;
+            border-radius: 12px;
+            padding: 24px;
+            margin: 25px auto 35px auto;
+            max-width: 850px;
+            box-shadow: 0 8px 25px rgba(56, 189, 248, 0.1);
+        }
+        .micro-tool-card h3 {
+            color: #38bdf8;
+            margin-top: 0;
+            margin-bottom: 8px;
+            font-size: 1.25rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .tool-controls {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 12px;
+        }
+        .tool-select, .tool-input {
+            background: #0f172a;
+            border: 1px solid var(--border-color);
+            color: var(--text-main);
+            padding: 10px 14px;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            outline: none;
+        }
+        .tool-input {
+            flex: 1;
+            min-width: 260px;
+        }
+        .tool-select:focus, .tool-input:focus {
+            border-color: var(--accent-color);
+        }
+        .tool-btn {
+            background: #38bdf8;
+            color: #0f172a;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: 0.2s ease;
+        }
+        .tool-btn:hover {
+            background: #7dd3fc;
+            transform: translateY(-1px);
+        }
+        .tool-output-box {
+            display: none;
+            background: #090d16;
+            border: 1px solid #334155;
+            border-radius: 8px;
+            padding: 15px;
+            margin-top: 15px;
+            position: relative;
+        }
+        .tool-output-box pre {
+            margin: 0;
+            white-space: pre-wrap;
+            word-break: break-word;
+            color: #cbd5e1;
+            font-size: 0.9rem;
+            font-family: monospace;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #334155;
+            color: #fff;
+            border: none;
+            padding: 5px 12px;
+            border-radius: 5px;
+            font-size: 0.75rem;
+            cursor: pointer;
+        }
+        .copy-btn:hover { background: #475569; }
+
+        /* Search Bar & Nav styling adjustments */
         .search-container {
-            max-width: 750px !important;
-            margin: 20px auto 0 auto !important;
+            max-width: 850px !important;
+            margin: 15px auto 0 auto !important;
             width: 100%;
         }
         .search-input {
@@ -31,6 +150,23 @@
             border-color: #38bdf8 !important;
             box-shadow: 0 0 15px rgba(56, 189, 248, 0.3) !important;
         }
+        .nav-links li a {
+            cursor: pointer;
+        }
+
+        /* AdSense Box Placeholders */
+        .adsense-unit {
+            background: rgba(30, 41, 59, 0.5);
+            border: 1px dashed #334155;
+            color: #64748b;
+            text-align: center;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
     </style>
 </head>
 <body>
@@ -39,45 +175,91 @@
         <a href="#" class="logo">⚡ NOVAPULSE</a>
         <ul class="nav-links">
             <li><a onclick="setCategory('all', event)" class="active">All News</a></li>
-            <li><a onclick="setCategory('ai', event)">AI & ML</a></li>
-            <li><a onclick="setCategory('software', event)">Software</a></li>
-            <li><a onclick="setCategory('security', event)">Cyber Security</a></li>
-            <li><a onclick="setCategory('gadgets', event)">Tech & Gadgets</a></li>
+            <li><a onclick="setCategory('ai', event)">🤖 AI & ML</a></li>
+            <li><a onclick="setCategory('software', event)">💻 Tech & Dev</a></li>
+            <li><a onclick="setCategory('crypto', event)">🪙 Crypto & Web3</a></li>
+            <li><a onclick="setCategory('business', event)">📈 Business</a></li>
         </ul>
     </nav>
 
     <header class="hero">
-        <h1>The Pulse of Artificial Intelligence & Tech</h1>
-        <p>Live feed aggregating global updates from Google News, NYTimes, BBC, and leading tech publishers.</p>
+        <h1>The Pulse of Artificial Intelligence, Tech & Crypto</h1>
+        <p>Live automated feed aggregating global updates from top technology labs, crypto media, and startup hubs.</p>
         
         <!-- Wide Live Search Bar -->
         <div class="search-container">
-            <input type="text" id="search-input" class="search-input" placeholder="🔍 Search news by keyword (e.g. Nvidia, OpenAI, ChatGPT, Cloud, Security)..." oninput="handleFilter()">
+            <input type="text" id="search-input" class="search-input" placeholder="🔍 Search news by keyword (e.g. Nvidia, Bitcoin, OpenAI, Solana, Cloud)..." oninput="handleFilter()">
         </div>
     </header>
 
+    <!-- FREE MICRO-TOOL: AI Prompt Generator & Enhancer -->
+    <section class="container" style="padding: 0 15px;">
+        <div class="micro-tool-card">
+            <h3>⚡ Free Tool: Instant AI Prompt Enhancer</h3>
+            <p style="color: #94a3b8; font-size: 0.9rem; margin: 0 0 10px 0;">Transform simple ideas into structured, high-performing prompts for ChatGPT, Claude, or Midjourney.</p>
+            
+            <div class="tool-controls">
+                <input type="text" id="prompt-input" class="tool-input" placeholder="Enter your raw idea (e.g., 'write python web scraper' or 'futuristic cyberpunk city')...">
+                
+                <select id="prompt-target" class="tool-select">
+                    <option value="chatgpt">ChatGPT / GPT-4</option>
+                    <option value="claude">Claude 3.5</option>
+                    <option value="midjourney">Midjourney Image</option>
+                </select>
+
+                <select id="prompt-style" class="tool-select">
+                    <option value="expert">Expert / Professional</option>
+                    <option value="detailed">Step-by-Step Guide</option>
+                    <option value="code">Clean Technical Code</option>
+                    <option value="creative">Creative & Engaging</option>
+                </select>
+
+                <button onclick="generateEnhancedPrompt()" class="tool-btn">✨ Enhance Prompt</button>
+            </div>
+
+            <div id="tool-output-box" class="tool-output-box">
+                <button onclick="copyGeneratedPrompt()" id="copy-btn" class="copy-btn">📋 Copy</button>
+                <pre id="prompt-output-text"></pre>
+            </div>
+        </div>
+    </section>
+
     <div class="container">
         <div>
+            <!-- News Feed Grid -->
             <main class="news-grid" id="news-container">
-                <p style="color:#9ca3af;">Loading real-time updates...</p>
+                <p style="color:#9ca3af; text-align:center; padding: 40px 0;">Loading real-time updates...</p>
             </main>
+
             <!-- Amazon Tech Banner -->
-<div class="amazon-banner" style="background: #232f3e; color: #fff; padding: 15px; border-radius: 8px; text-align: center; margin: 20px 0;">
-    <h4 style="color: #ff9900; margin-bottom: 5px; font-size: 18px;">🔥 Top Tech & AI Gadget Deals</h4>
-    <p style="font-size: 13px; margin-bottom: 12px; color: #ddd;">Check today's discounted gadgets, laptops & accessories on Amazon.</p>
-    <a href="https://www.amazon.com/gp/goldbox?tag=fastbuyzone-20" target="_blank" style="background: #ff9900; color: #111; padding: 10px 18px; font-weight: bold; text-decoration: none; border-radius: 4px; display: inline-block;">Shop Deals on Amazon →</a>
-</div>
+            <div class="amazon-banner" style="background: #232f3e; color: #fff; padding: 15px; border-radius: 8px; text-align: center; margin: 20px 0;">
+                <h4 style="color: #ff9900; margin-bottom: 5px; font-size: 18px;">🔥 Top Tech & AI Gadget Deals</h4>
+                <p style="font-size: 13px; margin-bottom: 12px; color: #ddd;">Check today's discounted gadgets, laptops & accessories on Amazon.</p>
+                <a href="https://www.amazon.com/gp/goldbox?tag=fastbuyzone-20" target="_blank" style="background: #ff9900; color: #111; padding: 10px 18px; font-weight: bold; text-decoration: none; border-radius: 4px; display: inline-block;">Shop Deals on Amazon →</a>
+            </div>
+
+            <!-- AdSense Feed Placement (Ready for AdSense code) -->
+            <div class="adsense-unit">
+                <span>- Advertisement -</span>
+            </div>
+
             <div class="pagination" id="pagination-container"></div>
         </div>
 
         <aside class="sidebar">
-            <!-- Amazon Tech Banner -->
-<div class="amazon-banner" style="background: #232f3e; color: #fff; padding: 15px; border-radius: 8px; text-align: center; margin: 20px 0;">
-    <h4 style="color: #ff9900; margin-bottom: 5px; font-size: 18px;">🔥 Top Tech & AI Gadget Deals</h4>
-    <p style="font-size: 13px; margin-bottom: 12px; color: #ddd;">Check today's discounted gadgets, laptops & accessories on Amazon.</p>
-    <a href="https://www.amazon.com/gp/goldbox?tag=fastbuyzone-20" target="_blank" style="background: #ff9900; color: #111; padding: 10px 18px; font-weight: bold; text-decoration: none; border-radius: 4px; display: inline-block;">Shop Deals on Amazon →</a>
-</div>
+            <!-- Amazon Tech Banner Sidebar -->
+            <div class="amazon-banner" style="background: #232f3e; color: #fff; padding: 15px; border-radius: 8px; text-align: center; margin: 20px 0;">
+                <h4 style="color: #ff9900; margin-bottom: 5px; font-size: 18px;">🔥 Top Tech Deals</h4>
+                <p style="font-size: 13px; margin-bottom: 12px; color: #ddd;">Discounted tech gadgets & gear on Amazon.</p>
+                <a href="https://www.amazon.com/gp/goldbox?tag=fastbuyzone-20" target="_blank" style="background: #ff9900; color: #111; padding: 10px 18px; font-weight: bold; text-decoration: none; border-radius: 4px; display: inline-block;">Shop Deals →</a>
+            </div>
 
+            <!-- AdSense Sidebar Slot -->
+            <div class="adsense-unit">
+                <span>- Advertisement -</span>
+            </div>
+
+            <!-- NovaCore Cross-Promotion Widget -->
             <div class="ad-box">
                 <h3>🚀 Hot Software & AI Deals</h3>
                 <p>Discover handpicked lifetime SaaS deals, hosting discounts, and productivity tools on NovaCore.</p>
@@ -86,7 +268,7 @@
 
             <div class="about-box" id="about">
                 <h4>About NovaPulse</h4>
-                <p>NovaPulse is an automated news engine monitoring global RSS feeds every 6 hours to keep developers and tech enthusiasts ahead of the curve.</p>
+                <p>NovaPulse is an automated news engine monitoring global RSS feeds every 6 hours to keep tech enthusiasts, developers, and investors ahead of the curve.</p>
             </div>
         </aside>
     </div>
@@ -105,6 +287,48 @@
         const itemsPerPage = 10;
         let currentPage = 1;
 
+        // Micro-Tool JavaScript Logic
+        function generateEnhancedPrompt() {
+            const raw = document.getElementById('prompt-input').value.trim();
+            const target = document.getElementById('prompt-target').value;
+            const style = document.getElementById('prompt-style').value;
+            const outputBox = document.getElementById('tool-output-box');
+            const outputText = document.getElementById('prompt-output-text');
+
+            if (!raw) {
+                alert('Please enter a prompt concept first!');
+                return;
+            }
+
+            let result = '';
+
+            if (target === 'midjourney') {
+                result = `/imagine prompt: ${raw}, high-definition 8k resolution, hyper-realistic, photorealistic lighting, cinematic composition, octane render, 35mm photograph detail --ar 16:9 --v 6.0`;
+            } else {
+                let toneInstruction = "Provide clear, well-structured output.";
+                if (style === 'expert') toneInstruction = "Act as a world-class senior industry expert. Provide an authoritative, precise, and highly comprehensive response.";
+                if (style === 'detailed') toneInstruction = "Provide a step-by-step breakdown with clear bullet points, actionable examples, and structured explanations.";
+                if (style === 'code') toneInstruction = "Focus on production-ready, clean, modular code with concise comments and zero fluff.";
+                if (style === 'creative') toneInstruction = "Use an engaging, vivid, and inspiring tone that captures the audience's full attention.";
+
+                result = `[SYSTEM CONTEXT & ROLE]\n${toneInstruction}\n\n[USER TASK]\nObjective: ${raw}\n\n[REQUIREMENTS & CONSTRAINTS]\n1. Be clear, accurate, and direct.\n2. Organize the answer logically using clean headings or bullet points.\n3. Highlight key takeaways or edge cases where applicable.`;
+            }
+
+            outputText.innerText = result;
+            outputBox.style.display = 'block';
+            document.getElementById('copy-btn').innerText = '📋 Copy';
+        }
+
+        function copyGeneratedPrompt() {
+            const text = document.getElementById('prompt-output-text').innerText;
+            navigator.clipboard.writeText(text).then(() => {
+                const copyBtn = document.getElementById('copy-btn');
+                copyBtn.innerText = 'Copied! ✅';
+                setTimeout(() => { copyBtn.innerText = '📋 Copy'; }, 2000);
+            });
+        }
+
+        // Category & Search Logic
         function setCategory(category, e) {
             currentCategory = category;
             document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
@@ -116,17 +340,17 @@
             const searchQuery = document.getElementById('search-input').value.toLowerCase().trim();
 
             filteredArticles = allArticles.filter(item => {
-                const text = (item.title + " " + item.summary + " " + item.source).toLowerCase();
+                const text = ((item.title || "") + " " + (item.summary || "") + " " + (item.source || "")).toLowerCase();
                 
-                // Category Condition
+                // Category Filtering Rules
                 let matchesCategory = false;
                 if (currentCategory === 'all') matchesCategory = true;
-                else if (currentCategory === 'ai') matchesCategory = /ai|intelligence|gpt|llm|openai|claude|gemini|neural|model|robot/i.test(text);
-                else if (currentCategory === 'software') matchesCategory = /software|app|code|dev|python|github|linux|windows|cloud|tool/i.test(text);
-                else if (currentCategory === 'security') matchesCategory = /security|cyber|hack|data|privacy|leak|breach|virus|crypto/i.test(text);
-                else if (currentCategory === 'gadgets') matchesCategory = /apple|google|phone|chip|nvidia|intel|hardware|device|meta|samsung/i.test(text);
+                else if (currentCategory === 'ai') matchesCategory = /ai|intelligence|gpt|llm|openai|claude|gemini|neural|model|robot|machine learning/i.test(text);
+                else if (currentCategory === 'software') matchesCategory = /software|app|code|dev|python|github|linux|windows|cloud|tool|developer|framework/i.test(text);
+                else if (currentCategory === 'crypto') matchesCategory = /crypto|bitcoin|btc|ethereum|eth|blockchain|web3|defi|nft|solana|binance|altcoin/i.test(text);
+                else if (currentCategory === 'business') matchesCategory = /business|startup|funding|venture|market|economy|finance|revenue|sec|stock|tech news/i.test(text);
 
-                // Search Query Condition
+                // Keyword Search Match
                 let matchesSearch = text.includes(searchQuery);
 
                 return matchesCategory && matchesSearch;
@@ -141,7 +365,7 @@
             container.innerHTML = '';
             
             if (filteredArticles.length === 0) {
-                container.innerHTML = '<p style="color:#9ca3af; padding: 20px 0; text-align:center;">Koi news nahi mili. Koi doosra keyword ya category try karein!</p>';
+                container.innerHTML = '<p style="color:#9ca3af; padding: 40px 0; text-align:center;">Koi news nahi mili. Koi doosra keyword ya category try karein!</p>';
                 document.getElementById('pagination-container').innerHTML = '';
                 return;
             }
@@ -151,19 +375,23 @@
             const pageArticles = filteredArticles.slice(start, end);
 
             pageArticles.forEach(item => {
+                const articleLink = item.link || item.url || "#";
+                const articleDate = item.date || item.time || "Today";
+                const articleImg = item.image || item.icon || 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80';
+
                 const card = document.createElement('article');
                 card.className = 'news-card';
                 card.innerHTML = `
-                    <img src="${item.image}" alt="News Image" class="news-img" onerror="this.src='https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80'">
+                    <img src="${articleImg}" alt="News Image" class="news-img" onerror="this.src='https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80'">
                     <div class="news-content">
                         <div>
-                            <span class="source-tag">${item.source}</span>
-                            <h2><a href="${item.link}" target="_blank" rel="noopener">${item.title}</a></h2>
-                            <p class="news-desc">${item.summary}</p>
+                            <span class="source-tag">${item.source || 'NovaPulse'}</span>
+                            <h2><a href="${articleLink}" target="_blank" rel="noopener">${item.title}</a></h2>
+                            <p class="news-desc">${item.summary || ''}</p>
                         </div>
                         <div class="news-footer">
-                            <span>${item.date}</span>
-                            <a href="${item.link}" target="_blank" rel="noopener" class="read-more">Read More →</a>
+                            <span>${articleDate}</span>
+                            <a href="${articleLink}" target="_blank" rel="noopener" class="read-more">Read More →</a>
                         </div>
                     </div>
                 `;
@@ -186,7 +414,7 @@
                 btn.innerText = i;
                 btn.onclick = () => {
                     renderPage(i);
-                    window.scrollTo({ top: 200, behavior: 'smooth' });
+                    window.scrollTo({ top: 300, behavior: 'smooth' });
                 };
                 paginationContainer.appendChild(btn);
             }
@@ -200,7 +428,7 @@
                 renderPage(1);
             })
             .catch(err => {
-                document.getElementById('news-container').innerHTML = '<p style="color:#9ca3af;">Error loading news feed. Please make sure news.json exists.</p>';
+                document.getElementById('news-container').innerHTML = '<p style="color:#9ca3af; padding: 40px 0; text-align:center;">News feed search complete. Ensure news.json is loaded.</p>';
             });
     </script>
 </body>

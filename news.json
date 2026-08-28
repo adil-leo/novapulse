@@ -1,4 +1,5 @@
 [
+<<<<<<< HEAD
     {
         "title": "Bytes Technology Group Stock And 2 UK Software Picks Tied To Enterprise AI Spending - Yahoo Finance",
         "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZ2hKSHJMc3BGMU1JcHFIVkkzN1o0OWJMb1VqRGdkZjVhZEJ1Z0ttX2FpRFZqWWNzd0t4UjFtNkZidDZjZkowVEFqUUVQWWhETVZlTlB3Y1hsM0JBczBxZzBZTzJHTFFyemlZaV95TmVGNlE0aGJVaDNPYVltSjJoQjZpeGVQUGh3UGc5VWliV0Y2R1M1OHdHSGVB?oc=5",
@@ -287,4 +288,294 @@
         "source": "BBC Tech",
         "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/54cb/live/a495ae60-9fa1-11f1-a83c-33ebef033ca4.jpg"
     }
+=======
+  {
+    "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
+    "link": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
+    "summary": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
+    "source": "TechCrunch AI",
+    "date": "Thu, 27 Aug 2026",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
+  },
+  {
+    "title": "Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
+    "link": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
+    "summary": "Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's CTO, led a brief stint at OpenAI and is now at Google.",
+    "source": "TechCrunch AI",
+    "date": "Thu, 27 Aug 2026",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
+  },
+  {
+    "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
+    "link": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
+    "summary": "Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say...",
+    "source": "TechCrunch AI",
+    "date": "Thu, 27 Aug 2026",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
+  },
+  {
+    "title": "Google’s AI Mode can now track flight prices, help book hotels, and more",
+    "link": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
+    "summary": "The updates indicate that Google is looking to position AI Mode as an AI travel agent of sorts, as it's moving beyond simply helping users find information to actually...",
+    "source": "TechCrunch AI",
+    "date": "Thu, 27 Aug 2026",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
+  },
+  {
+    "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
+    "link": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
+    "summary": "Presented by Gravitee Agent complexity is the insidious shadow lurking inside enterprises right now that needs a light shone on it.That’s because enterprises don&#x27;...",
+    "source": "VentureBeat AI",
+    "date": "Thu, 27 Aug 2026",
+    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/5ScHW6mZ2rQr3EvsxrwooK/43df8725b6e12cd4bcf550bb7b3b1cb4/Gravitee_hero.jpg?w=300&q=30"
+  },
+  {
+    "title": "When agents act on their own, governance has to live in the data layer",
+    "link": "https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer",
+    "summary": "Presented by EDB As enterprises give AI agents more autonomy — the ability to plan, decide, and act across systems without a human approving each step — a hard questio...",
+    "source": "VentureBeat AI",
+    "date": "Thu, 27 Aug 2026",
+    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/9VRh8KJhBqcFviSV8ClXc/feea8ec8fe76ffa0bc5cdb3dd95e1492/EDB_hero.jpeg?w=300&q=30"
+  },
+  {
+    "title": "Orchestration is the new challenge for CX in the age of AI agents",
+    "link": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
+    "summary": "Presented by Tata Communications Enterprises are deploying AI agents, voice AI, and automation across messaging, voice, and digital channels faster than the architectu...",
+    "source": "VentureBeat AI",
+    "date": "Wed, 26 Aug 2026",
+    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/1RK5pjHAxWRLsDy5iAC3Iy/4f9c39b5925645c365440e487ffe2157/Tata_hero.jpg?w=300&q=30"
+  },
+  {
+    "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
+    "link": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
+    "summary": "Rob Strechay, until recently managing director and principal analyst at theCUBE Research, has joined VentureBeat as our first Lead Analyst and a founding analyst of Ve...",
+    "source": "VentureBeat AI",
+    "date": "Wed, 19 Aug 2026",
+    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/14iDGoOPdfaOw0DODBNL9w/7f4d8c6b70797d9bf23a623cbfa3fea3/6ca16f96-3171-4f7e-8c89-f466a3901415.png?w=300&q=30"
+  },
+  {
+    "title": "Anthropic's new hardware standard lets AI agents control the physical world",
+    "link": "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world/",
+    "summary": "Standardized driver interface aims to let devices talk to AI and each other.",
+    "source": "Ars Technica",
+    "date": "Thu, 27 Aug 2026",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/mhsdemo-1152x648.png"
+  },
+  {
+    "title": "Elon Musk’s xAI used child porn to train Grok models, lawsuit says",
+    "link": "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/",
+    "summary": "xAI accused of training Grok on real and AI-generated child pornography.",
+    "source": "Ars Technica",
+    "date": "Thu, 27 Aug 2026",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2280412936-1024x648.jpg"
+  },
+  {
+    "title": "GOP heads to Supreme Court after losing case over TV election ad prices",
+    "link": "https://arstechnica.com/tech-policy/2026/08/gop-heads-to-supreme-court-after-losing-case-over-tv-election-ad-prices/",
+    "summary": "GOP campaign committees want quick ruling before election ads ramp up next week.",
+    "source": "Ars Technica",
+    "date": "Thu, 27 Aug 2026",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/gop-logo-1152x648-1787858821.jpg"
+  },
+  {
+    "title": "Report: Nvidia to acquire AI model repository Hugging Face for $13 billion",
+    "link": "https://arstechnica.com/ai/2026/08/report-nvidia-to-acquire-ai-model-repository-hugging-face-for-13-billion/",
+    "summary": "Nvidia is nabbing critical infrastructure for open models as interest grows.",
+    "source": "Ars Technica",
+    "date": "Thu, 27 Aug 2026",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2024/09/hugging_face_3-1152x648.jpg"
+  },
+  {
+    "title": "Uber Eats Promo Codes: $15 Off │September 2026",
+    "link": "https://www.wired.com/story/uber-eats-promo-code/",
+    "summary": "Hunger meets savings. Discover verified Uber Eats promo codes, new user offers, and Uber One discounts to slash your delivery fees and meal costs.",
+    "source": "Wired Tech",
+    "date": "Fri, 28 Aug 2026",
+    "image": ""
+  },
+  {
+    "title": "Reebok Discount Code: Save 15%+ in September 2026",
+    "link": "https://www.wired.com/story/reebok-discount-code/",
+    "summary": "Score deep discounts on running shoes, athletic apparel, and classics with the latest verified Reebok promo codes, student discounts, and member-only savings.",
+    "source": "Wired Tech",
+    "date": "Fri, 28 Aug 2026",
+    "image": ""
+  },
+  {
+    "title": "Hotels.com Coupon Codes for September 2026",
+    "link": "https://www.wired.com/story/hotels-com-coupon/",
+    "summary": "Unlock significant savings on hotels, resorts, and getaways with our verified Hotels.com promo codes and gift card discounts. Plan your perfect trip today!",
+    "source": "Wired Tech",
+    "date": "Fri, 28 Aug 2026",
+    "image": ""
+  },
+  {
+    "title": "Gametime Promo Code: Save on Tickets in September 2026",
+    "link": "https://www.wired.com/story/gametime-promo-code/",
+    "summary": "Grab last-minute seats for less with a verified Gametime discount code for up to 10% off, first-purchase coupons, and lowest price guarantee credits.",
+    "source": "Wired Tech",
+    "date": "Fri, 28 Aug 2026",
+    "image": ""
+  },
+  {
+    "title": "Saving 100 terabytes of memory by optimizing 1.1.1.1's DNS cache",
+    "link": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+    "summary": "Comments",
+    "source": "Hacker News",
+    "date": "Thu, 27 Aug 2026",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
+  },
+  {
+    "title": "Small Models Have Arrived",
+    "link": "https://calv.info/small-models-have-arrived",
+    "summary": "Comments",
+    "source": "Hacker News",
+    "date": "Thu, 27 Aug 2026",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
+  },
+  {
+    "title": "Please stop flooding our projects with AI slop to furnish your CV",
+    "link": "https://neilalexander.dev/2026/06/30/flooding-contributions",
+    "summary": "Comments",
+    "source": "Hacker News",
+    "date": "Fri, 28 Aug 2026",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
+  },
+  {
+    "title": "Show HN: OpenTIE and OpenXWA, Modern Ports of Tie Fighter and X-Wing Alliance",
+    "link": "https://github.com/elyosh/OpenTIE/",
+    "summary": "Comments",
+    "source": "Hacker News",
+    "date": "Thu, 27 Aug 2026",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
+  },
+  {
+    "title": "Here’s why Warsh’s Jackson Hole speech is a major event for bitcoin and gold",
+    "link": "https://www.coindesk.com/markets/2026/08/28/here-s-why-warsh-s-jackson-hole-speech-is-a-major-event-for-bitcoin-and-gold",
+    "summary": "Click read more to view full article.",
+    "source": "CoinDesk",
+    "date": "Fri, 28 Aug 2026",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/17bee3af9fe1ac84bbe5e96e709475f22fb089ca-3542x2362.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+  },
+  {
+    "title": "Solana’s faster supply cuts lead vote while $800,000 daily burn plan trails",
+    "link": "https://www.coindesk.com/tech/2026/08/28/solana-s-faster-supply-cuts-lead-vote-while-usd800-000-daily-burn-plan-trails",
+    "summary": "Click read more to view full article.",
+    "source": "CoinDesk",
+    "date": "Fri, 28 Aug 2026",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/2e14ef9e0ece47068da06c0d0405ba1e13c15bd8-3904x2196.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+  },
+  {
+    "title": "Bitcoin is trading at a premium on Coinbase after a long time. Here's what it means",
+    "link": "https://www.coindesk.com/markets/2026/08/28/bitcoin-is-trading-at-a-premium-on-coinbase-after-a-long-time",
+    "summary": "Click read more to view full article.",
+    "source": "CoinDesk",
+    "date": "Fri, 28 Aug 2026",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/7f9a8bf8731625906738faac957eee0f6ad99369-2315x1277.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+  },
+  {
+    "title": "Bitcoin under $80,000, solana leads majors higher before Warsh's Jackson Hole debut",
+    "link": "https://www.coindesk.com/markets/2026/08/28/bitcoin-holds-usd80-000-solana-leads-majors-higher-before-warsh-s-jackson-hole-debut",
+    "summary": "Click read more to view full article.",
+    "source": "CoinDesk",
+    "date": "Fri, 28 Aug 2026",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/ab86a50845d3c0057248691a587f84732f2fc7b5-1498x840.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+  },
+  {
+    "title": "Here’s what happened in crypto today",
+    "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+    "source": "CoinTelegraph",
+    "date": "Fri, 28 Aug 2026",
+    "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+  },
+  {
+    "title": "The Sandbox pledges 1:1 repayment after $700K bridge exploit",
+    "link": "https://cointelegraph.com/news/the-sandbox-compensation-sand-bridge-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "Eligible holders on Base and BNB Chain will receive Ethereum-based SAND from the project’s treasury, with claims expected to open within two weeks.",
+    "source": "CoinTelegraph",
+    "date": "Fri, 28 Aug 2026",
+    "image": "https://s3-images.ctmedia.io/media/article-covers/sand-refund.png"
+  },
+  {
+    "title": "Abu Dhabi royal backs 49% stake in Trump-linked crypto bank venture: WSJ",
+    "link": "https://cointelegraph.com/news/abu-dhabi-royal-trump-world-liberty-crypto-bank-wsj?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "Sheikh Tahnoon’s group reportedly backs a 49% stake in the holding company behind World Liberty’s conditionally approved US trust bank.",
+    "source": "CoinTelegraph",
+    "date": "Fri, 28 Aug 2026",
+    "image": "https://s3-images.ctmedia.io/media/article-covers/hi-donald-trump-and-wlfi-crypto.jpg"
+  },
+  {
+    "title": "Virtu, Tradeweb complete onchain repo using Marshall Islands digital bond",
+    "link": "https://cointelegraph.com/news/virtu-tradeweb-complete-onchain-repo-using-marshall-islands-digital-bond?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "The transaction used the Marshall Islands-issued USDM1 bond as collateral and completed the full repo cycle on the Canton Network in under 10 minutes.",
+    "source": "CoinTelegraph",
+    "date": "Thu, 27 Aug 2026",
+    "image": "https://s3-images.ctmedia.io/media/article-covers/hi-bond-follow-up-bybit-2.png"
+  },
+  {
+    "title": "Fashion startup Atorie raises $9.5M to bring consumers luxury goods without the markup",
+    "link": "https://techcrunch.com/2026/08/27/fashion-startup-atorie-raises-9-5m-to-bring-consumers-luxury-goods-without-the-markup/",
+    "summary": "Shoppers can visit the Atorie website and buy handbags or clothes made from the same material — and coming from the same factory — that manufacturers use in high-end g...",
+    "source": "TC Startups",
+    "date": "Thu, 27 Aug 2026",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
+  },
+  {
+    "title": "Hoomanely’s building a smart feeding bowl and an AI platform to help owners spot when their pup is sick",
+    "link": "https://techcrunch.com/2026/08/27/hoomanelys-building-a-smart-feeding-bowl-and-an-ai-platform-to-help-owners-spot-when-their-pup-is-sick/",
+    "summary": "Hoomanely has developed a smart bowl to measure and record dogs' feeding data, then tells owners if behaviors change.",
+    "source": "TC Startups",
+    "date": "Thu, 27 Aug 2026",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
+  },
+  {
+    "title": "This former PG&E engineer is building a ‘Google Maps for the underground’",
+    "link": "https://techcrunch.com/2026/08/27/this-former-pge-engineer-is-building-a-google-maps-for-the-underground/",
+    "summary": "The startup just raised a $26 million Series A to grow its customer base and help reduce red tape for utility and construction work.",
+    "source": "TC Startups",
+    "date": "Thu, 27 Aug 2026",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
+  },
+  {
+    "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
+    "link": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
+    "summary": "The startup is only a year old but it has already generated a massive amount of hype (and money) while also spurring privacy concerns.",
+    "source": "TC Startups",
+    "date": "Thu, 27 Aug 2026",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
+  },
+  {
+    "title": "A Federal Order Threatened My Business Overnight — Literally. Here’s How We Bounced Back.",
+    "link": "https://www.entrepreneur.com/business-news/a-federal-order-threatened-my-business-overnight-literally-heres-how-we-bounced-back",
+    "summary": "When a federal order threatened part of my business overnight, my values alone didn't save me. Here's what did.",
+    "source": "Entrepreneur",
+    "date": "Thu, 27 Aug 2026",
+    "image": "https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/08/bounce-back-from-crisis-0826_g1412413043.jpg"
+  },
+  {
+    "title": "The 4 Tax Moves That Could Pay for Your Next Summer Vacation",
+    "link": "https://www.entrepreneur.com/money-finance/4-tax-moves-that-will-pay-for-your-next-vacation/504866",
+    "summary": "Waiting until year-end to think about taxes isn't just stressful — it's expensive. Here's what to do right now while you still have room to act.",
+    "source": "Entrepreneur",
+    "date": "Thu, 27 Aug 2026",
+    "image": "https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/08/1787841840-tax-moves-that-could-pay-for-summer-vacation-0826-s-1827806774.jpg"
+  },
+  {
+    "title": "Values Reveal Themselves Under Pressure. Here’s How to Turn Yours Into a Competitive Advantage.",
+    "link": "https://www.entrepreneur.com/business-news/values-reveal-themselves-under-pressure-heres-how-to-turn-yours-into-a-competitive-advantage",
+    "summary": "Mission-driven leadership doesn't live in the statement on your wall — it lives in the trade-offs you make when nobody would fault you for taking the easier path.",
+    "source": "Entrepreneur",
+    "date": "Thu, 27 Aug 2026",
+    "image": "https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/08/values-competitive-advantage-0826_g2286370053.jpg"
+  },
+  {
+    "title": "I’ve Brought Dozens of Inventions to Market. Here’s How I Know Which Ones Will Sell.",
+    "link": "https://www.entrepreneur.com/growing-a-business/ive-brought-dozens-of-inventions-to-market-heres-what/504834",
+    "summary": "I get pitched dozens of products a year. Every single one is brilliant. Here's the only test that decides which ones actually make it.",
+    "source": "Entrepreneur",
+    "date": "Thu, 27 Aug 2026",
+    "image": "https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/08/1787768908-inventions-that-will-sell-0826-g2220904918.jpg"
+  }
+>>>>>>> 14e1482 (Added NovaPulse 4 categories, AI prompt tool, scraper & auto-workflow)
 ]
