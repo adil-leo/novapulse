@@ -23,7 +23,7 @@ jobs:
           pip install feedparser
 
       - name: Run Scraper Script
-        run: python fetch_news.py
+        run: python scraper.py
 
       - name: Commit and Push news.json
         run: |
