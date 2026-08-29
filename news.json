@@ -1,34 +1,34 @@
 [
   {
-    "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
-    "link": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
-    "summary": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
+    "title": "Neocloud Lambda secures $1B in debt to buy more chips",
+    "link": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
+    "summary": "Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft. It's the latest in a string of loans, underscoring the high cost of ...",
     "source": "TechCrunch AI",
-    "date": "Thu, 27 Aug 2026",
+    "date": "Fri, 28 Aug 2026",
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
   },
   {
-    "title": "Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
-    "link": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
-    "summary": "Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's CTO, led a brief stint at OpenAI and is now at Google.",
+    "title": "An Anthropic researcher just gave us a peek at self-improving AI",
+    "link": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+    "summary": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
     "source": "TechCrunch AI",
-    "date": "Thu, 27 Aug 2026",
+    "date": "Fri, 28 Aug 2026",
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
   },
   {
-    "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
-    "link": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
-    "summary": "Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say...",
+    "title": "Open-weight AI companies are the Valley’s hottest acquisition targets",
+    "link": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
+    "summary": "There's a lot of capital pouring into the business of giving models away.",
     "source": "TechCrunch AI",
-    "date": "Thu, 27 Aug 2026",
+    "date": "Fri, 28 Aug 2026",
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
   },
   {
-    "title": "Google’s AI Mode can now track flight prices, help book hotels, and more",
-    "link": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
-    "summary": "The updates indicate that Google is looking to position AI Mode as an AI travel agent of sorts, as it's moving beyond simply helping users find information to actually...",
+    "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+    "link": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
+    "summary": "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continu...",
     "source": "TechCrunch AI",
-    "date": "Thu, 27 Aug 2026",
+    "date": "Fri, 28 Aug 2026",
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
   },
   {
@@ -64,169 +64,185 @@
     "image": "https://images.ctfassets.net/jdtwqhzvc2n1/14iDGoOPdfaOw0DODBNL9w/7f4d8c6b70797d9bf23a623cbfa3fea3/6ca16f96-3171-4f7e-8c89-f466a3901415.png?w=300&q=30"
   },
   {
-    "title": "Anthropic's new hardware standard lets AI agents control the physical world",
-    "link": "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world/",
-    "summary": "Standardized driver interface aims to let devices talk to AI and each other.",
+    "title": "Court rules Kalshi sports bets aren't \"swaps,\" just gambling with a different name",
+    "link": "https://arstechnica.com/tech-policy/2026/08/kalshi-cant-evade-nevada-gambling-laws-by-calling-bets-swaps-court-rules/",
+    "summary": "Kalshi can't evade Nevada gambling laws by calling bets \"swaps,\" judges rule.",
     "source": "Ars Technica",
-    "date": "Thu, 27 Aug 2026",
-    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/mhsdemo-1152x648.png"
+    "date": "Fri, 28 Aug 2026",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/kalshi-ad-1152x648-1783536871.jpg"
   },
   {
-    "title": "Elon Musk’s xAI used child porn to train Grok models, lawsuit says",
-    "link": "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/",
-    "summary": "xAI accused of training Grok on real and AI-generated child pornography.",
+    "title": "Cities terminate Flock contracts at record pace in August",
+    "link": "https://arstechnica.com/tech-policy/2026/08/cities-terminate-flock-contracts-at-record-pace-in-august/",
+    "summary": "Cancellations have accelerated.",
     "source": "Ars Technica",
-    "date": "Thu, 27 Aug 2026",
-    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2280412936-1024x648.jpg"
+    "date": "Fri, 28 Aug 2026",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/flock-camera-1152x648-1779223467.jpg"
   },
   {
-    "title": "GOP heads to Supreme Court after losing case over TV election ad prices",
-    "link": "https://arstechnica.com/tech-policy/2026/08/gop-heads-to-supreme-court-after-losing-case-over-tv-election-ad-prices/",
-    "summary": "GOP campaign committees want quick ruling before election ads ramp up next week.",
+    "title": "\"RFK Jr. has lied to the Senate\": Lawmakers call for criminal probe, ouster",
+    "link": "https://arstechnica.com/health/2026/08/rfk-jr-has-lied-to-the-senate-lawmakers-call-for-criminal-probe-ouster/",
+    "summary": "RFK Jr. went to Samoa to spread vaccine fears. The measles outbreak after killed 83.",
     "source": "Ars Technica",
-    "date": "Thu, 27 Aug 2026",
-    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/gop-logo-1152x648-1787858821.jpg"
+    "date": "Fri, 28 Aug 2026",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/03/GettyImages-2203339270-1152x648.jpg"
   },
   {
-    "title": "Report: Nvidia to acquire AI model repository Hugging Face for $13 billion",
-    "link": "https://arstechnica.com/ai/2026/08/report-nvidia-to-acquire-ai-model-repository-hugging-face-for-13-billion/",
-    "summary": "Nvidia is nabbing critical infrastructure for open models as interest grows.",
+    "title": "Trump blacklisting of \"woke\" Anthropic deemed illegal by federal judge",
+    "link": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/",
+    "summary": "Anthropic refused to support lethal autonomous warfare and mass surveillance.",
     "source": "Ars Technica",
-    "date": "Thu, 27 Aug 2026",
-    "image": "https://cdn.arstechnica.net/wp-content/uploads/2024/09/hugging_face_3-1152x648.jpg"
+    "date": "Fri, 28 Aug 2026",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-1152x648.jpg"
   },
   {
-    "title": "Uber Eats Promo Codes: $15 Off │September 2026",
-    "link": "https://www.wired.com/story/uber-eats-promo-code/",
-    "summary": "Hunger meets savings. Discover verified Uber Eats promo codes, new user offers, and Uber One discounts to slash your delivery fees and meal costs.",
+    "title": "Motorola Coupon Code for September 2026",
+    "link": "https://www.wired.com/story/motorola-coupon-code/",
+    "summary": "Upgrade your smartphone for less with the latest Motorola promo codes, free shipping offers, and exclusive seasonal discounts.",
+    "source": "Wired Tech",
+    "date": "Sat, 29 Aug 2026",
+    "image": ""
+  },
+  {
+    "title": "The 31 Best Deals From the REI Labor Day Sale",
+    "link": "https://www.wired.com/story/rei-labor-day-sale-2026/",
+    "summary": "Labor Day already? Say it ain’t so. You can still chase summer a while longer with these great deals on outdoor gear at the REI Labor Day Sale.",
     "source": "Wired Tech",
     "date": "Fri, 28 Aug 2026",
     "image": ""
   },
   {
-    "title": "Reebok Discount Code: Save 15%+ in September 2026",
-    "link": "https://www.wired.com/story/reebok-discount-code/",
-    "summary": "Score deep discounts on running shoes, athletic apparel, and classics with the latest verified Reebok promo codes, student discounts, and member-only savings.",
+    "title": "Best Laptops (2026): My Top Recommendations After Testing Hundreds",
+    "link": "https://www.wired.com/story/best-laptops/",
+    "summary": "I’ve been reviewing laptops for over a decade, and here's my advice on how to find the right laptop for you.",
     "source": "Wired Tech",
     "date": "Fri, 28 Aug 2026",
     "image": ""
   },
   {
-    "title": "Hotels.com Coupon Codes for September 2026",
-    "link": "https://www.wired.com/story/hotels-com-coupon/",
-    "summary": "Unlock significant savings on hotels, resorts, and getaways with our verified Hotels.com promo codes and gift card discounts. Plan your perfect trip today!",
+    "title": "The Easiest Ways to Share Anything Between Android and iOS",
+    "link": "https://www.wired.com/story/how-to-share-anything-between-android-and-ios/",
+    "summary": "Transferring files and data across platforms is more straightforward than ever.",
     "source": "Wired Tech",
     "date": "Fri, 28 Aug 2026",
     "image": ""
   },
   {
-    "title": "Gametime Promo Code: Save on Tickets in September 2026",
-    "link": "https://www.wired.com/story/gametime-promo-code/",
-    "summary": "Grab last-minute seats for less with a verified Gametime discount code for up to 10% off, first-purchase coupons, and lowest price guarantee credits.",
-    "source": "Wired Tech",
-    "date": "Fri, 28 Aug 2026",
-    "image": ""
-  },
-  {
-    "title": "Overcooked? Why robotic pizza makers are failing",
-    "link": "https://www.bbc.com/news/articles/czxq0wgkkdjo",
+    "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
+    "link": "https://github.com/Lakr233/vphone-cli",
     "summary": "Comments",
     "source": "Hacker News",
     "date": "Fri, 28 Aug 2026",
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
   },
   {
-    "title": "That's a Lot of YAML",
-    "link": "https://noyaml.com/",
+    "title": "GUIs should be fully keyboard-driven",
+    "link": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
     "summary": "Comments",
     "source": "Hacker News",
     "date": "Fri, 28 Aug 2026",
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
   },
   {
-    "title": "Saving 100 terabytes of memory by optimizing 1.1.1.1's DNS cache",
-    "link": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+    "title": "TurboKV: Insanely fast Rust key-value store",
+    "link": "https://github.com/kingroryg/turbokv",
     "summary": "Comments",
     "source": "Hacker News",
-    "date": "Thu, 27 Aug 2026",
+    "date": "Sat, 29 Aug 2026",
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
   },
   {
-    "title": "Small Models Have Arrived",
-    "link": "https://calv.info/small-models-have-arrived",
+    "title": "Htmx 4.0",
+    "link": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
     "summary": "Comments",
     "source": "Hacker News",
-    "date": "Thu, 27 Aug 2026",
+    "date": "Fri, 28 Aug 2026",
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
   },
   {
-    "title": "Kraken users briefly locked out after a flood of sanctioned crypto transactions",
-    "link": "https://www.coindesk.com/business/2026/08/28/kraken-users-briefly-locked-out-after-a-flood-of-sanctioned-crypto-transactions",
+    "title": "Bitcoin wallets untouched for 10 years moved $40 million. Most avoided exchanges",
+    "link": "https://www.coindesk.com/markets/2026/08/28/bitcoin-wallets-untouched-for-10-years-moved-usd40-million-most-avoided-exchanges",
+    "summary": "Click read more to view full article.",
+    "source": "CoinDesk",
+    "date": "Sat, 29 Aug 2026",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/70198f64252bcded39f90b505eb1a2f4f3b2fb92-1500x1000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+  },
+  {
+    "title": "Ripple is preparing XRP Ledger for quantum computers before ‘Q-Day’ arrives",
+    "link": "https://www.coindesk.com/tech/2026/08/28/ripple-is-preparing-xrp-ledger-for-quantum-computers-before-q-day-arrives",
+    "summary": "Click read more to view full article.",
+    "source": "CoinDesk",
+    "date": "Sat, 29 Aug 2026",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/3fdb04bd3eb1c1413ad0d70e8d1e464ee4866ad9-1500x1000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+  },
+  {
+    "title": "Kalshi takes legal blow in court ruling confirming state powers over prediction markets",
+    "link": "https://www.coindesk.com/policy/2026/08/28/kalshi-takes-legal-blow-in-court-ruling-confirming-state-powers-over-prediction-markets",
     "summary": "Click read more to view full article.",
     "source": "CoinDesk",
     "date": "Fri, 28 Aug 2026",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/8c2d1d6c9e47c3db1e4becaf1739fb8dce590d3b-3600x2400.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/cd68dbf11ea2b03847eb5020d28aec70f8c83de4-2321x1306.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
   },
   {
-    "title": "Live updates: Bitcoin options worth $6.4 billion just expired as prices hover near $80,000",
-    "link": "https://www.coindesk.com/business/2026/08/28/live-updates-bitcoin-options-worth-usd6-4-billion-just-expired-as-prices-hover-near-usd80-000",
+    "title": "Solana vote to double disinflation passes by a hair in dramatic finish",
+    "link": "https://www.coindesk.com/tech/2026/08/28/solana-vote-to-double-disinflation-passes-by-a-hair-in-dramatic-finish",
     "summary": "Click read more to view full article.",
     "source": "CoinDesk",
     "date": "Fri, 28 Aug 2026",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/3e6bcc2d602b5b66f3f939a2756c550f61f49a1f-2588x902.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/54c0f3b41e62df4cdf774aab4c7d68c64e5e976c-1920x1080.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
   },
   {
-    "title": "IREN shares fall 8% as costly AI transition weighs on earnings",
-    "link": "https://www.coindesk.com/markets/2026/08/28/iren-shares-fall-8-as-costly-ai-transition-weighs-on-earnings",
-    "summary": "Click read more to view full article.",
-    "source": "CoinDesk",
-    "date": "Fri, 28 Aug 2026",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/54bd04de039305784bf732dce245207bcc75ba21-7008x3942.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-  },
-  {
-    "title": "Here’s why Warsh’s Jackson Hole speech is a major event for bitcoin and gold",
-    "link": "https://www.coindesk.com/markets/2026/08/28/here-s-why-warsh-s-jackson-hole-speech-is-a-major-event-for-bitcoin-and-gold",
-    "summary": "Click read more to view full article.",
-    "source": "CoinDesk",
-    "date": "Fri, 28 Aug 2026",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/17bee3af9fe1ac84bbe5e96e709475f22fb089ca-3542x2362.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-  },
-  {
-    "title": "ENA token rises 10% as Ethena puts revenue-funded token buybacks to vote",
-    "link": "https://cointelegraph.com/markets/ena-rises-10-ethena-token-buyback-proposal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "The Ethena Foundation proposed buying the token supply held by major early investors and revealed a fee switch to turn 95% of net protocol revenue into ENA buybacks.",
+    "title": "Here’s what happened in crypto today",
+    "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
     "source": "CoinTelegraph",
     "date": "Fri, 28 Aug 2026",
-    "image": "https://s3-images.ctmedia.io/media/article-covers/hi-overview-of-synthetic-crypto-assets-for-ethena.jpg"
+    "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
   },
   {
-    "title": "BitGo buys NYDIG trading arm to deepen institutional crypto push",
-    "link": "https://cointelegraph.com/news/bitgo-nydig-trading-arm-acquisition?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "BitGo completed its acquisition of NYDIG’s institutional trading business, adding about 30 employees and expanding its derivatives and financing capabilities.",
+    "title": "Solana validators approve proposal to accelerate SOL disinflation",
+    "link": "https://cointelegraph.com/news/solana-validators-approve-proposal-to-accelerate-sol-disinflation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "The approved proposal doubles Solana’s annual disinflation rate from 15% to 30%, reducing future SOL issuance while leaving its long-term inflation target unchanged.",
     "source": "CoinTelegraph",
     "date": "Fri, 28 Aug 2026",
-    "image": "https://s3-images.ctmedia.io/media/article-covers/car-exchange-smartphone-blockchain-bitgo.jpg"
+    "image": "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M14TAFCZGB4VMQ151R2N0EKE/hi-bitcoin-vs-fiat-currencies-over-the-past-several-years-have-they-been-hampered-by-the-inflation2-2.png"
   },
   {
-    "title": "OneKey reproduces transaction replacement attack on outdated Ledger Ethereum app",
-    "link": "https://cointelegraph.com/news/onekey-transaction-replacement-attack-old-version-ledger?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "OneKey said it reproduced an exploit against an older version of the Ledger app in its lab environment, which Ledger fixed in its Ethereum app 1.22.2, with no user fun...",
+    "title": "Chelsea FC gets a stablecoin sponsor after UK FCA warning to clubs",
+    "link": "https://cointelegraph.com/news/chelsea-football-circle-sponsor-fca-warning-questionable-deals?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "According to Circle, the USDC stablecoin name will appear on the front of club jerseys for Chelsea’s upcoming football season.",
     "source": "CoinTelegraph",
     "date": "Fri, 28 Aug 2026",
-    "image": "https://s3-images.ctmedia.io/media/article-covers/hi-how-great-big-companies-use-blockchain2.jpg"
+    "image": "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M14JXJEKJGWZPA4CPWG622Q2/gamecredits-football4.jpg"
   },
   {
-    "title": "Visa works with Upbit parent on stablecoin payments, AI commerce",
-    "link": "https://cointelegraph.com/news/visa-dunamu-stablecoin-payments-ai-commerce?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "Visa and Dunamu will explore stablecoin payments and remittances, with Open Standard’s proposed OUSD among several projects under review.",
+    "title": "Bullish provides USD.AI $100M stablecoin facility for GPU-backed lending",
+    "link": "https://cointelegraph.com/news/bullish-provides-usdai-100m-stablecoin-facility-gpu-backed-loans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "The institutional crypto exchange is providing $100 million in stablecoin liquidity to support loans backed by AI computing infrastructure.",
     "source": "CoinTelegraph",
     "date": "Fri, 28 Aug 2026",
-    "image": "https://s3-images.ctmedia.io/media/article-covers/hi-could-those-who-left-visa-come-back-stablecoin.jpg"
+    "image": "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M14HGFTCPWKB8SGHW3HW7DZ6/hi-what-is-a-masternode-and-ai.png"
+  },
+  {
+    "title": "How Sweden built one of Europe’s hottest startup ecosystems",
+    "link": "https://techcrunch.com/2026/08/28/how-sweden-built-one-of-europes-hottest-startup-ecosystems/",
+    "summary": "Sophia Bendz, general partner at Cherry Ventures, stopped by Equity to break down the latest in the Swedish tech ecosystem.",
+    "source": "TC Startups",
+    "date": "Fri, 28 Aug 2026",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
   },
   {
     "title": "As electric two-wheelers gain a foothold, Belgian startup Any bets on cargo space",
     "link": "https://techcrunch.com/2026/08/28/as-electric-two-wheelers-gain-a-foothold-belgian-startup-any-bets-on-cargo-space/",
     "summary": "Launched by Belgian startup Any, LUV1 is a modular electric motorcycle with 120 liters of cargo space that can be used to carry bags, work equipment, or even pets.",
+    "source": "TC Startups",
+    "date": "Fri, 28 Aug 2026",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
+  },
+  {
+    "title": "AI, athletes, and Keith Rabois: StrictlyVC is back in New York on September 10",
+    "link": "https://techcrunch.com/2026/08/27/ai-athletes-and-keith-rabois-strictlyvc-is-back-in-new-york-on-september-10/",
+    "summary": "A boutique StrictlyVC evening returns to New York's West Village on September 10 with Keith Rabois, Craig Shapiro, Jason Levien, Tristan Walker, Brynn Putnam, and Deve...",
     "source": "TC Startups",
     "date": "Fri, 28 Aug 2026",
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
@@ -240,51 +256,35 @@
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
   },
   {
-    "title": "Hoomanely’s building a smart feeding bowl and an AI platform to help owners spot when their pup is sick",
-    "link": "https://techcrunch.com/2026/08/27/hoomanelys-building-a-smart-feeding-bowl-and-an-ai-platform-to-help-owners-spot-when-their-pup-is-sick/",
-    "summary": "Hoomanely has developed a smart bowl to measure and record dogs' feeding data, then tells owners if behaviors change.",
-    "source": "TC Startups",
-    "date": "Thu, 27 Aug 2026",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
-  },
-  {
-    "title": "This former PG&E engineer is building a ‘Google Maps for the underground’",
-    "link": "https://techcrunch.com/2026/08/27/this-former-pge-engineer-is-building-a-google-maps-for-the-underground/",
-    "summary": "The startup just raised a $26 million Series A to grow its customer base and help reduce red tape for utility and construction work.",
-    "source": "TC Startups",
-    "date": "Thu, 27 Aug 2026",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
-  },
-  {
-    "title": "A Federal Order Threatened My Business Overnight — Literally. Here’s How We Bounced Back.",
-    "link": "https://www.entrepreneur.com/business-news/a-federal-order-threatened-my-business-overnight-literally-heres-how-we-bounced-back",
-    "summary": "When a federal order threatened part of my business overnight, my values alone didn't save me. Here's what did.",
+    "title": "The Next Wave of American Innovation Isn’t Being Built in Silicon Valley. Here’s Where It’s Actually Happening.",
+    "link": "https://www.entrepreneur.com/leadership/the-next-wave-of-american-innovation-isnt-being-built-in/505012",
+    "summary": "The innovation frontier is moving from software to physical infrastructure — and one American region is quietly positioned to lead it.",
     "source": "Entrepreneur",
-    "date": "Thu, 27 Aug 2026",
-    "image": "https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/08/bounce-back-from-crisis-0826_g1412413043.jpg"
+    "date": "Fri, 28 Aug 2026",
+    "image": "https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/08/1787939892-not-silicon-valley-innovation-0826-g2249645876.jpg"
   },
   {
-    "title": "The 4 Tax Moves That Could Pay for Your Next Summer Vacation",
-    "link": "https://www.entrepreneur.com/money-finance/4-tax-moves-that-will-pay-for-your-next-vacation/504866",
-    "summary": "Waiting until year-end to think about taxes isn't just stressful — it's expensive. Here's what to do right now while you still have room to act.",
+    "title": "7 Things AI Can Now Do for Your One-Person Business it Couldn’t 2 Weeks Ago (No Staff, No Code)",
+    "link": "https://www.entrepreneur.com/business-news/tech/7-things-ai-can-now-do-for-your-one-person-business-it-couldnt-2-weeks-ago-no-staff-no-code",
+    "summary": "Stop prompting for answers. Start assigning complete outcomes.",
     "source": "Entrepreneur",
-    "date": "Thu, 27 Aug 2026",
-    "image": "https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/08/1787841840-tax-moves-that-could-pay-for-summer-vacation-0826-s-1827806774.jpg"
+    "date": "Sat, 29 Aug 2026",
+    "image": "https://players.brightcove.net/6415925990001/kEZdecvhc_default/index.html?videoId=6404156137112"
   },
   {
-    "title": "Values Reveal Themselves Under Pressure. Here’s How to Turn Yours Into a Competitive Advantage.",
-    "link": "https://www.entrepreneur.com/business-news/values-reveal-themselves-under-pressure-heres-how-to-turn-yours-into-a-competitive-advantage",
-    "summary": "Mission-driven leadership doesn't live in the statement on your wall — it lives in the trade-offs you make when nobody would fault you for taking the easier path.",
+    "title": "Talent Isn’t Enough — Here’s What Separates Those Who Stall From Those Who Break Through",
+    "link": "https://www.entrepreneur.com/living/talent-isnt-enough-heres-what-separates-those-who/504829",
+    "summary": "The professionals who advance fastest don't rely on a single mentor — they build a network of mentors, coaches, sponsors and peers who help them see what they'd otherw...",
     "source": "Entrepreneur",
-    "date": "Thu, 27 Aug 2026",
-    "image": "https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/08/values-competitive-advantage-0826_g2286370053.jpg"
+    "date": "Fri, 28 Aug 2026",
+    "image": "https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/08/1786727335-break-through-competition-0826-g1419875492.jpg"
   },
   {
-    "title": "I’ve Brought Dozens of Inventions to Market. Here’s How I Know Which Ones Will Sell.",
-    "link": "https://www.entrepreneur.com/growing-a-business/ive-brought-dozens-of-inventions-to-market-heres-what/504834",
-    "summary": "I get pitched dozens of products a year. Every single one is brilliant. Here's the only test that decides which ones actually make it.",
+    "title": "3 Kinds of Deals I Turn Down — Even When Everything in the Room Says Yes",
+    "link": "https://www.entrepreneur.com/leadership/3-kinds-of-deals-i-turn-down-even-when-everything-in/505203",
+    "summary": "Some of the best investment decisions I've made never show up anywhere — because the discipline to walk away when everything in the room is leaning forward is what sep...",
     "source": "Entrepreneur",
-    "date": "Thu, 27 Aug 2026",
-    "image": "https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/08/1787768908-inventions-that-will-sell-0826-g2220904918.jpg"
+    "date": "Fri, 28 Aug 2026",
+    "image": "https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/08/1787932663-turning-down-deal-0826-g-1456853727.jpg"
   }
 ]
