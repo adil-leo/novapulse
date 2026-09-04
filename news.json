@@ -1,290 +1,258 @@
 [
   {
-    "title": "The Builders Stage brings practical strategies for scaling startups to TechCrunch Disrupt 2026",
-    "link": "https://techcrunch.com/2026/09/02/the-builders-stage-brings-practical-strategies-for-scaling-startups-to-techcrunch-disrupt-2026/",
-    "summary": "The Builders Stage is returning to TechCrunch Disrupt, bringing together founders, startup operators, and investors for practical conversations on what it takes to bui...",
+    "title": "The sameness problem behind those unappetizing AI-generated menus",
+    "link": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
+    "summary": "While restaurant owners might look to generative AI as a shortcut to sprucing up their menu, customers can viscerally sense that something is wrong with the food.",
     "source": "TechCrunch AI",
-    "date": "Wed, 02 Sep 2026",
+    "date": "Fri, 04 Sep 2026",
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
   },
   {
-    "title": "Palo Alto Networks paid $500M for Thrive-backed Console, sources say",
-    "link": "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/",
-    "summary": "The acquisition also leaves Sequoia-backed Serval as the de facto startup leader in AI IT service automation, industry watchers believe.",
+    "title": "Crusoe reportedly raises $3B at a  $30B valuation",
+    "link": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
+    "summary": "The round came together after the data center developer reportedly secured a $13 billion contract with Jane Street.",
     "source": "TechCrunch AI",
-    "date": "Wed, 02 Sep 2026",
+    "date": "Fri, 04 Sep 2026",
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
   },
   {
-    "title": "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals",
-    "link": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/",
-    "summary": "On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.",
+    "title": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
+    "link": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+    "summary": "The high-profile startup's annual revenue run rate stands at over $100 million.",
     "source": "TechCrunch AI",
-    "date": "Wed, 02 Sep 2026",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
-  },
-  {
-    "title": "OpenAI’s new reasoning technique alarms AI safety experts",
-    "link": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
-    "summary": "OpenAI’s new Astra model will use “recurrent depth,” a technique that allows the model to operate outside of the sequential thinking that characterizes most reasoning ...",
-    "source": "TechCrunch AI",
-    "date": "Wed, 02 Sep 2026",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
-  },
-  {
-    "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
-    "link": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
-    "summary": "Presented by Gravitee Agent complexity is the insidious shadow lurking inside enterprises right now that needs a light shone on it.That’s because enterprises don&#x27;...",
-    "source": "VentureBeat AI",
-    "date": "Thu, 27 Aug 2026",
-    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/5ScHW6mZ2rQr3EvsxrwooK/43df8725b6e12cd4bcf550bb7b3b1cb4/Gravitee_hero.jpg?w=300&q=30"
-  },
-  {
-    "title": "When agents act on their own, governance has to live in the data layer",
-    "link": "https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer",
-    "summary": "Presented by EDB As enterprises give AI agents more autonomy — the ability to plan, decide, and act across systems without a human approving each step — a hard questio...",
-    "source": "VentureBeat AI",
-    "date": "Thu, 27 Aug 2026",
-    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/9VRh8KJhBqcFviSV8ClXc/feea8ec8fe76ffa0bc5cdb3dd95e1492/EDB_hero.jpeg?w=300&q=30"
-  },
-  {
-    "title": "Orchestration is the new challenge for CX in the age of AI agents",
-    "link": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
-    "summary": "Presented by Tata Communications Enterprises are deploying AI agents, voice AI, and automation across messaging, voice, and digital channels faster than the architectu...",
-    "source": "VentureBeat AI",
-    "date": "Wed, 26 Aug 2026",
-    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/1RK5pjHAxWRLsDy5iAC3Iy/4f9c39b5925645c365440e487ffe2157/Tata_hero.jpg?w=300&q=30"
-  },
-  {
-    "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
-    "link": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
-    "summary": "Rob Strechay, until recently managing director and principal analyst at theCUBE Research, has joined VentureBeat as our first Lead Analyst and a founding analyst of Ve...",
-    "source": "VentureBeat AI",
-    "date": "Wed, 19 Aug 2026",
-    "image": "https://images.ctfassets.net/jdtwqhzvc2n1/14iDGoOPdfaOw0DODBNL9w/7f4d8c6b70797d9bf23a623cbfa3fea3/6ca16f96-3171-4f7e-8c89-f466a3901415.png?w=300&q=30"
-  },
-  {
-    "title": "Spending deal comes with a bonus: Blocking political control of grants",
-    "link": "https://arstechnica.com/science/2026/09/budget-deal-puts-political-control-of-grants-on-hold-until-december/",
-    "summary": "Congress pauses the OMB's attempt to rewrite how research is funded.",
-    "source": "Ars Technica",
-    "date": "Wed, 02 Sep 2026",
-    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/us-capitol-1152x648-1777657457.jpg"
-  },
-  {
-    "title": "I rented a car, and within hours, my driver's license was for sale",
-    "link": "https://arstechnica.com/security/2026/09/my-drivers-license-is-one-of-153-million-for-sale-on-a-new-dark-website/",
-    "summary": "The FBI is reportedly investigating a massive data breach that is unfolding in real time.",
-    "source": "Ars Technica",
-    "date": "Wed, 02 Sep 2026",
-    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/Dan-stolen-driver-licence.png"
-  },
-  {
-    "title": "FCC plans robocall scorecard to grade phone companies on spam call blocking",
-    "link": "https://arstechnica.com/tech-policy/2026/09/fcc-plans-robocall-scorecard-to-grade-phone-companies-on-spam-call-blocking/",
-    "summary": "Carrier scorecards may include call-blocking stats and data on customer complaints.",
-    "source": "Ars Technica",
-    "date": "Wed, 02 Sep 2026",
-    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/robocall-blocking-1152x648-1788376254.jpg"
-  },
-  {
-    "title": "Wary of Artemis IV timeline, NASA is changing lunar spacesuit design",
-    "link": "https://arstechnica.com/space/2026/09/wary-of-artemis-iv-timeline-nasa-is-changing-lunar-spacesuit-design/",
-    "summary": "\"Requirements are being adjusted to reflect near-term mission needs.\"",
-    "source": "Ars Technica",
-    "date": "Wed, 02 Sep 2026",
-    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/AxEVA_Brooks_TVACTesting_20251110_6698_AxEdit-1152x648.jpg"
-  },
-  {
-    "title": "HBO Max Promo Code: 50% Off | September 2026",
-    "link": "https://www.wired.com/story/max-promo-code/",
-    "summary": "Stream your favorite shows and save up to 50% today with HBO Max discount codes and subscription deals.",
-    "source": "Wired Tech",
     "date": "Thu, 03 Sep 2026",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
+  },
+  {
+    "title": "Abliteration.ai is making a business out of removing AI guardrails",
+    "link": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
+    "summary": "Abliteration.AI is making powerful AI models without guardrails easier to access, arguing that giving defenders the same tools as bad actors could ultimately improve c...",
+    "source": "TechCrunch AI",
+    "date": "Thu, 03 Sep 2026",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
+  },
+  {
+    "title": "Reports: RFK Jr. ordered measles deaths deletion; CDC still secretly counts them",
+    "link": "https://arstechnica.com/health/2026/09/reports-rfk-jr-ordered-measles-deaths-deletion-cdc-still-secretly-counts-them/",
+    "summary": "CDC staff had already accepted the measles death reports when RFK Jr. meddled.",
+    "source": "Ars Technica",
+    "date": "Thu, 03 Sep 2026",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/09/GettyImages-2233024483-1152x648.jpg"
+  },
+  {
+    "title": "Xbox imposes harsh new time limits for Game Pass game streaming",
+    "link": "https://arstechnica.com/gaming/2026/09/xbox-imposes-harsh-new-time-limits-for-game-pass-game-streaming/",
+    "summary": "Over 1 million Game Pass subscribers will have to pay more for their heavy streaming use.",
+    "source": "Ars Technica",
+    "date": "Thu, 03 Sep 2026",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/xcloud02-1152x648.jpg"
+  },
+  {
+    "title": "150 research primates got diarrhea, flooding lab with priceless vaccine data",
+    "link": "https://arstechnica.com/health/2026/09/150-research-primates-got-diarrhea-flooding-lab-with-priceless-vaccine-data/",
+    "summary": "Researchers now have clear new targets and insights for developing a Shigella vaccine.",
+    "source": "Ars Technica",
+    "date": "Thu, 03 Sep 2026",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2259791135-1152x648.jpg"
+  },
+  {
+    "title": "Confused about which VPN is right, US senator asks the NSA for guidance",
+    "link": "https://arstechnica.com/security/2026/09/us-senator-calls-on-the-nsa-to-give-guidance-for-use-of-vpns/",
+    "summary": "Open source, commercial, single-hop, multi-hop, mixnet? The array of options is dizzying.",
+    "source": "Ars Technica",
+    "date": "Thu, 03 Sep 2026",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2024/05/vpn-tunnel-1000x648.jpg"
+  },
+  {
+    "title": "Foreo Discount Codes and Deals: Up to 50% Off",
+    "link": "https://www.wired.com/story/foreo-promo-code/",
+    "summary": "Save on Foreo favorites, including LUNA cleansing brushes, BEAR microcurrent devices, and masks and accessories to level up your daily skincare routine at home.",
+    "source": "Wired Tech",
+    "date": "Fri, 04 Sep 2026",
     "image": ""
   },
   {
-    "title": "Expedia Coupons: 40% Off",
-    "link": "https://www.wired.com/story/expedia-coupon/",
-    "summary": "Book your next getaway with Expedia and get up to 75% off your stay, with or without a promo code.",
+    "title": "Sportsman's Warehouse Promo Code: Save in September 2026",
+    "link": "https://www.wired.com/story/sportsmans-warehouse-promo-code/",
+    "summary": "Whether you are hunting for firearms, camping supplies, or boating gear, use these Sportsman’s Warehouse coupons to maximize your savings in September 2026.",
     "source": "Wired Tech",
-    "date": "Thu, 03 Sep 2026",
+    "date": "Fri, 04 Sep 2026",
     "image": ""
   },
   {
-    "title": "Instacart Promo Code: $15 Off | September 2026",
-    "link": "https://www.wired.com/story/instacart-promo/code/",
-    "summary": "Find the best Instacart promo code for massive savings in September 2026.",
+    "title": "Medicube Coupon Code: 40% Off for September 2026",
+    "link": "https://www.wired.com/story/medicube-coupon-code/",
+    "summary": "Upgrade your K-beauty routine with these active Medicube promo codes. Save on Age-R devices, serums, and masks with student discounts and referral rewards.",
     "source": "Wired Tech",
-    "date": "Thu, 03 Sep 2026",
+    "date": "Fri, 04 Sep 2026",
     "image": ""
   },
   {
-    "title": "Lovehoney Coupon Offers: Toys, Lingerie, and Gift Set Discounts",
-    "link": "https://www.wired.com/story/lovehoney-discount-code/",
-    "summary": "Save on Lovehoney, including bestselling toys, lingerie, and popular gift sets for date nights, self-care, and couples’ play.",
+    "title": "Mattress Firm Coupons: Save up to $700",
+    "link": "https://www.wired.com/story/mattress-firm-coupon/",
+    "summary": "Use a Mattress Firm promo code to save on top mattresses, score a free adjustable base, and unlock up to $300 in instant credits.",
     "source": "Wired Tech",
-    "date": "Thu, 03 Sep 2026",
+    "date": "Fri, 04 Sep 2026",
     "image": ""
   },
   {
-    "title": "Muse Spark 1.3",
-    "link": "https://developer.meta.com/ai/models/muse-spark/",
+    "title": "GPT-6 Astra",
+    "link": "https://openai.com/index/gpt-6-astra/",
     "summary": "Comments",
     "source": "Hacker News",
-    "date": "Wed, 02 Sep 2026",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
-  },
-  {
-    "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
-    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-    "summary": "Comments",
-    "source": "Hacker News",
-    "date": "Wed, 02 Sep 2026",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
-  },
-  {
-    "title": "The Computer Museum of America reclamation project",
-    "link": "https://computer-museum.org/wp/",
-    "summary": "Comments",
-    "source": "Hacker News",
-    "date": "Mon, 31 Aug 2026",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
-  },
-  {
-    "title": "Holden's Lightning Flight",
-    "link": "https://en.wikipedia.org/wiki/Holden%27s_Lightning_flight",
-    "summary": "Comments",
-    "source": "Hacker News",
-    "date": "Mon, 31 Aug 2026",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
-  },
-  {
-    "title": "Dogecoin becomes only losing bet for Japan-listed firm as it sells altcoins for bitcoin",
-    "link": "https://www.coindesk.com/markets/2026/09/03/dogecoin-becomes-losing-bet-for-japan-listed-firm-remixpoint-as-it-sells-altcoins-for-bitcoin",
-    "summary": "Click read more to view full article.",
-    "source": "CoinDesk",
     "date": "Thu, 03 Sep 2026",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/04fb152863c85674cd150948d378fd8da5c2b2dc-1398x764.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
   },
   {
-    "title": "Bitcoin back above $77,500, XRP leads majors as Fed hike odds slide to 62%",
-    "link": "https://www.coindesk.com/markets/2026/09/03/bitcoin-back-above-usd77-500-xrp-leads-majors-as-fed-hike-odds-near-66",
-    "summary": "Click read more to view full article.",
-    "source": "CoinDesk",
+    "title": ".name Termination",
+    "link": "https://neil.fraser.name/news/2026/09/03/",
+    "summary": "Comments",
+    "source": "Hacker News",
     "date": "Thu, 03 Sep 2026",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/5eaf572aba58a6d719b59cf2540c1075ac613d50-1512x840.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
   },
   {
-    "title": "DOJ says Hamas crypto seizures reached $560,000 as FBI took over fundraising sites",
-    "link": "https://www.coindesk.com/business/2026/09/02/doj-says-hamas-crypto-seizures-reached-usd560-000-as-fbi-took-over-fundraising-sites",
+    "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
+    "link": "https://inference-docs.cerebras.ai/models/overview",
+    "summary": "Comments",
+    "source": "Hacker News",
+    "date": "Thu, 03 Sep 2026",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
+  },
+  {
+    "title": "A Mysterious Kidney Disease Has Arrived in Texas",
+    "link": "https://www.texasmonthly.com/news-politics/ckdu-kidney-disease-immigration/",
+    "summary": "Comments",
+    "source": "Hacker News",
+    "date": "Fri, 04 Sep 2026",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
+  },
+  {
+    "title": "OpenAI puts $1 billion behind cyber defense after unveiling AI that can find zero-days",
+    "link": "https://www.coindesk.com/tech/2026/09/04/openai-puts-usd1-billion-behind-cyber-defense-after-unveiling-ai-that-can-find-zero-days",
     "summary": "Click read more to view full article.",
     "source": "CoinDesk",
-    "date": "Wed, 02 Sep 2026",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/daff9ba693e030b0bf954a2c3bd97fd9395cc604-1920x1403.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+    "date": "Fri, 04 Sep 2026",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/d2b4b82edc6ff0637b37466e20cadf90ebe36839-1920x1280.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
   },
   {
-    "title": "Kraken parent Payward delays IPO to second quarter of 2027 at earliest",
-    "link": "https://www.coindesk.com/business/2026/09/02/kraken-parent-payward-pushes-ipo-back-to-mid-2027-at-earliest",
+    "title": "One full bitcoin now buys a little more than 18 ounces of gold, the most since January",
+    "link": "https://www.coindesk.com/markets/2026/09/04/one-full-bitcoin-now-buys-a-little-more-than-18-ounces-of-gold-the-most-since-january",
     "summary": "Click read more to view full article.",
     "source": "CoinDesk",
-    "date": "Wed, 02 Sep 2026",
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/60eaa4392d735a85d254d5ac89ec08baf0b7a62e-2048x1152.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+    "date": "Fri, 04 Sep 2026",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/4f043d332f866a0caec6c3e16fd6913c453ca418-2854x1488.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
   },
   {
-    "title": "Hyperscale Data ends Michigan BTC mining as holdings fall 79%",
-    "link": "https://cointelegraph.com/news/hyperscale-data-ends-michigan-bitcoin-mining-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "Hyperscale Data’s Bitcoin holdings have fallen about 79% since late July to 215 BTC as it redirects capital toward its Michigan AI data center.",
+    "title": "Bitcoin back above $81,000 as hike odds fade, Zcash leads with 15% jump",
+    "link": "https://www.coindesk.com/markets/2026/09/04/bitcoin-back-above-usd81-000-as-hike-odds-fade-zcash-leads-with-15-jump",
+    "summary": "Click read more to view full article.",
+    "source": "CoinDesk",
+    "date": "Fri, 04 Sep 2026",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/87d59e70eebb3f155812d7ca7361ed0768fb1a2e-1504x834.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+  },
+  {
+    "title": "U.S. banking agency gives blockchain bank OpenReserve initial OK to operate",
+    "link": "https://www.coindesk.com/policy/2026/09/03/u-s-banking-agency-gives-blockchain-bank-openreserve-initial-ok-to-operate",
+    "summary": "Click read more to view full article.",
+    "source": "CoinDesk",
+    "date": "Fri, 04 Sep 2026",
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/7150e9147434709d0f26c49d26f21b2219558bef-2803x1577.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+  },
+  {
+    "title": "US, UK launch joint alliance targeting crypto scam centers",
+    "link": "https://cointelegraph.com/news/us-uk-joint-alliance-crypto-scam-centers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "The agreement includes parallel investigations and information sharing, with US and UK authorities planning a private-sector disruption operation in London in October.",
+    "source": "CoinTelegraph",
+    "date": "Fri, 04 Sep 2026",
+    "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1NB3D2EEQMKVH8E9QFSYFWH/hi-anti-pig-butchering-policy-in-crypto-cambodia.png"
+  },
+  {
+    "title": "Tether sued over frozen ‘pig butcher’ coins, 6,600 students get crypto loans: Asia Express",
+    "link": "https://cointelegraph.com/magazine/tether-sued-over-frozen-pig-butcher-coins-6600-students-get-crypto-loans-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "Thai businessmen sue Tether over $42M frozen USDT tied to pig butchering scam, Aussie crypto firms face big fines unless they meet licensing deadline.",
     "source": "CoinTelegraph",
     "date": "Thu, 03 Sep 2026",
-    "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1JT29BT8ARQ99J5C2455XSJ/hi-ai-is-now-paying-bitcoin-miners-more-than-mining-1.jpg"
+    "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1MT8AVRA0N4FG4HK9PK2CZ5/asia-express-11.jpg"
   },
   {
-    "title": "US officials work with CrowdStrike to fight malware behind crypto theft",
-    "link": "https://cointelegraph.com/news/us-officials-crowdstrike-malware-stealing-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "Federal authorities and private-sector partners were part of an operation to disrupt malware that redirected about $150,000 in crypto over the last eight years.",
+    "title": "CFTC files to dismiss CME lawsuit over crypto perpetual futures",
+    "link": "https://cointelegraph.com/news/cftc-dismiss-cme-lawsuit-crypto-perpetual-futures?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "summary": "The CFTC’s lawyers called the lawsuit “much ado about nothing,“ claiming that the CME Group lacked standing to file and argued against its claims over crypto perpetual...",
     "source": "CoinTelegraph",
-    "date": "Wed, 02 Sep 2026",
-    "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1HV8E147WPWCMKXKN1K3NV1/pcvirusmalware.jpg"
-  },
-  {
-    "title": "Coinbase launches regulated crypto derivatives in Canada",
-    "link": "https://cointelegraph.com/news/coinbase-launches-regulated-crypto-derivatives-in-canada?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "summary": "Coinbase is offering eligible Canadian traders perpetual and dated futures with up to 10x leverage as major US trading platforms expand their crypto presence in Canada.",
-    "source": "CoinTelegraph",
-    "date": "Wed, 02 Sep 2026",
-    "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1HT238M4JD1C8SQAQHTYKWY/people-street-futures.jpg"
+    "date": "Thu, 03 Sep 2026",
+    "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1MD85WHZ0X0XYT5WKK8H3PD/man-documents-cftc-1.jpg"
   },
   {
     "title": "Here’s what happened in crypto today",
     "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
     "source": "CoinTelegraph",
-    "date": "Wed, 02 Sep 2026",
+    "date": "Thu, 03 Sep 2026",
     "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
   },
   {
-    "title": "The Builders Stage brings practical strategies for scaling startups to TechCrunch Disrupt 2026",
-    "link": "https://techcrunch.com/2026/09/02/the-builders-stage-brings-practical-strategies-for-scaling-startups-to-techcrunch-disrupt-2026/",
-    "summary": "The Builders Stage is returning to TechCrunch Disrupt, bringing together founders, startup operators, and investors for practical conversations on what it takes to bui...",
+    "title": "Startup ARR is less secure than ever, new research shows",
+    "link": "https://techcrunch.com/2026/09/03/startup-arr-is-less-secure-than-ever-new-research-shows/",
+    "summary": "The AI era has completely broken enterprise buying patterns, and startups haven't yet figured out how to navigate.",
     "source": "TC Startups",
-    "date": "Wed, 02 Sep 2026",
+    "date": "Thu, 03 Sep 2026",
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
   },
   {
-    "title": "Palo Alto Networks paid $500M for Thrive-backed Console, sources say",
-    "link": "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/",
-    "summary": "The acquisition also leaves Sequoia-backed Serval as the de facto startup leader in AI IT service automation, industry watchers believe.",
+    "title": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
+    "link": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+    "summary": "The high-profile startup's annual revenue run rate stands at over $100 million.",
     "source": "TC Startups",
-    "date": "Wed, 02 Sep 2026",
+    "date": "Thu, 03 Sep 2026",
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
   },
   {
-    "title": "Pangram’s Max Spero on why AI detection is harder than ‘Real or Fake’",
-    "link": "https://techcrunch.com/video/pangrams-max-spero-on-why-ai-detection-is-harder-than-real-or-fake/",
-    "summary": "The internet has a trust problem, and&#160;it’s&#160;not just because social media feeds are filling up with AI&#160;slop. AI-generated text and images are now making ...",
+    "title": "Utilities are racing to link up with fusion startups, with Realta Fusion the latest to benefit",
+    "link": "https://techcrunch.com/2026/09/03/utilities-are-racing-to-link-up-with-fusion-startups-with-realta-fusion-the-latest-to-benefit/",
+    "summary": "The grid has been straining under the weight of new AI data centers, and that has utilities courting fusion startups.",
     "source": "TC Startups",
-    "date": "Wed, 02 Sep 2026",
+    "date": "Thu, 03 Sep 2026",
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
   },
   {
-    "title": "We’re ‘dangerously close’ to dead internet theory, says Pangram’s CEO",
-    "link": "https://techcrunch.com/podcast/were-dangerously-close-to-dead-internet-theory-says-pangrams-ceo/",
-    "summary": "The internet has a trust problem, and&#160;it’s&#160;not just because social media feeds are filling up with AI&#160;slop. AI-generated text and images are now making ...",
+    "title": "Qualcomm backs Ultrahuman in $70M round on bet to turn smart rings into computers",
+    "link": "https://techcrunch.com/2026/09/03/qualcomm-backs-ultrahuman-in-70m-round-on-bet-to-turn-smart-rings-into-computers/",
+    "summary": "Ultrahuman is targeting a $200 million annual revenue run rate by January 2027 as it builds a new Qualcomm-powered smart ring.",
     "source": "TC Startups",
-    "date": "Wed, 02 Sep 2026",
+    "date": "Thu, 03 Sep 2026",
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80"
   },
   {
-    "title": "How These Founder Communities Offer Support — and a Competitive Edge",
-    "link": "https://www.entrepreneur.com/building-a-business/how-these-founder-communities-offer-support-and-a-competitive-edge",
-    "summary": "Finding the right networks can help business leaders beat isolation and gain a competitive edge.",
+    "title": "AI Is Making Reputation More Valuable Than Reach — Even in Real Estate",
+    "link": "https://www.entrepreneur.com/business-news/ai-is-making-reputation-more-valuable-than-reach-even-in-real-estate",
+    "summary": "For decades, real estate rewarded whoever could get the most attention. Today, reputation is one of the industry's most valuable assets.",
     "source": "Entrepreneur",
-    "date": "Wed, 02 Sep 2026",
-    "image": "https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/08/founder-communities-0826_g2280435126.jpg"
+    "date": "Fri, 04 Sep 2026",
+    "image": "https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/08/ai-real-estate-reputation-0826_g1441672102.jpg"
   },
   {
-    "title": "My Wife and I Started a Business to Elevate Aperitivo Hour in the U.S. It’s Averaging $8,000 to $10,000 a Month.",
-    "link": "https://www.entrepreneur.com/building-a-business/my-wife-and-i-started-a-business-to-elevate-aperitivo-hour-in-the-u-s-its-averaging-8000-to-10000-a-month",
-    "summary": "Joe Fiorenzo and Sheela Prakash spun their love of Italian culture into a CPG brand.",
+    "title": "This Husband-and-Wife Duo Started a Business They Couldn’t Find in Their Hometown. 6 Months in, It Did $1 Million in Sales.",
+    "link": "https://www.entrepreneur.com/buying-a-franchise/they-built-a-million-dollar-business-in-6-months-after-realizing-what-their-city-lacked",
+    "summary": "Ken and Sarah Barlow set out to open the doors to “something joyful” and “community-centered.”",
     "source": "Entrepreneur",
-    "date": "Wed, 02 Sep 2026",
-    "image": "https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/09/Sfizi-Sheela-Prakash-and-Joe-Fiorenzo.jpg"
+    "date": "Thu, 03 Sep 2026",
+    "image": "https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/09/Barlow-1.jpeg"
   },
   {
-    "title": "This Serial Entrepreneur Sold $1.4 Million in Products in One Hour. This Is the Secret Weapon Behind His ‘Super, Super Fast’ Growth.",
-    "link": "https://www.entrepreneur.com/building-a-business/he-sold-1-4-million-within-the-first-hour-of-launch-sportswear-brand",
-    "summary": "Serial entrepreneur Alvaro Gellings recently took the stage at the OOAK Mastermind conference in Tuscany.",
+    "title": "The Marketing Funnel Is Being Rewritten. Here’s How Transaction-Based Advertising Is Changing the Game.",
+    "link": "https://www.entrepreneur.com/building-a-business/marketing/the-marketing-funnel-is-being-rewritten-heres-how-transaction-based-advertising-is-changing-the-game",
+    "summary": "Here's how to navigate the $140B shift to transaction-based advertising.",
     "source": "Entrepreneur",
-    "date": "Wed, 02 Sep 2026",
-    "image": "https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/08/Alvaro-Gellings.jpg"
+    "date": "Thu, 03 Sep 2026",
+    "image": "https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/08/marketing-transaction-based-advertising-0826_g1811776805.jpg"
   },
   {
-    "title": "Try the ‘What Three Things?’ Method This Growth Specialist Uses to Unlock Millions",
-    "link": "https://www.entrepreneur.com/business-news/try-the-what-three-things-method-this-growth-specialist-uses-to-unlock-millions",
-    "summary": "ChargePoint Chief Growth Officer Jyothi Swaroop shares the mindset and methods that can 10X your business.",
+    "title": "The CEO of Snap Thinks You’ll Pay $2,195 for His New Smart Device: ‘Are We Being Punked?’",
+    "link": "https://www.entrepreneur.com/business-news/snap-ceo-evan-spiegel-thinks-youll-pay-2195-for-smart-glasses",
+    "summary": "Snap is under pressure. Its shares are down more than 30% this year.",
     "source": "Entrepreneur",
-    "date": "Wed, 02 Sep 2026",
-    "image": "https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/09/Jyothi-Swaroop_headshot-copy.jpg"
+    "date": "Thu, 03 Sep 2026",
+    "image": "https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/09/Evan-Spiegel-0926_g2281915461-new.jpg"
   }
 ]
